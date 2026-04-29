@@ -1,0 +1,33 @@
+# Documentação interna do projeto (não publicar)
+docs/
+tools/
+.github/skills/
+
+# Quartz build output
+quartz/node_modules/
+quartz/public/
+quartz/.quartz-cache/
+
+# Obsidian workspace (estado local, não versionar)
+site/.obsidian/workspace.json
+site/.obsidian/workspace-mobile.json
+
+# Obsidian trash
+site/.trash/
+
+# Obsidian Git plugin conflict file
+conflict-files-obsidian-git.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs temporários (relatórios de sync são commitados, mas não logs brutos)
+*.log
