@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "pt-BR",
-    baseUrl: "jhow-043.github.io/logos-archive-v1",
+    baseUrl: "jhow-043.github.io/logos-archive",
     ignorePatterns: ["_stubs/templates", "private", ".obsidian"],
     defaultDateType: "modified",
     theme: {

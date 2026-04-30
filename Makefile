@@ -12,11 +12,11 @@ sync-dry:
 
 # Build local do site
 build: sync
-	cd quartz && npx quartz build
+	cd quartz && npx quartz build -d ../site
 
 # Servidor local com hot-reload
 serve:
-	cd quartz && npx quartz build --serve
+	cd quartz && npx quartz build -d ../site --serve
 
 # Publica: sync + commit + push (dispara GH Actions)
 publish: sync

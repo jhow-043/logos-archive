@@ -1,10 +1,10 @@
 # Logos Archive
 
-[![Build & Deploy](https://github.com/jhow-043/logos-archive-v1/actions/workflows/deploy.yml/badge.svg)](https://github.com/jhow-043/logos-archive-v1/actions/workflows/deploy.yml)
+[![Build & Deploy](https://github.com/jhow-043/logos-archive/actions/workflows/deploy.yml/badge.svg)](https://github.com/jhow-043/logos-archive/actions/workflows/deploy.yml)
 
 > Vault Obsidian publicado como site estático via [Quartz v4](https://quartz.jzhao.xyz/).
 
-**Site**: https://jhow-043.github.io/logos-archive-v1/
+**Site**: https://jhow-043.github.io/logos-archive/
 
 ---
 
