@@ -73,11 +73,11 @@ tipo: moc
 ## Conexões
 
 - [[Química]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
+- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Física]] — Energia, grandezas e medidas em comum
 - [[Matemática]] — Álgebra e notação científica aplicadas
 
 ---
 
-> [[Graduação em Química]] ← Roadmap | [[1º Semestre]] ← Semestre
+> [[Química]] ← Roadmap | [[1º Semestre]] ← Semestre

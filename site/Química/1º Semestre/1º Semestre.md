@@ -38,4 +38,4 @@ tipo: moc
 
 ---
 
-> [[Graduação em Química]] ← Roadmap
+> [[Química]] ← Roadmap

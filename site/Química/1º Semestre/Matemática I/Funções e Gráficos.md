@@ -420,7 +420,7 @@ $$f(0) = 0 - 0 + 3 = 3 \implies \text{ponto } (0, 3)$$
 ## Conexões
 
 - [[Matemática]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
+- [[Química]] — Roadmap da graduação
 - [[Funções]] — pré-requisito direto (definição formal, domínio/imagem, classificação, inversa)
 - [[Conjuntos Numéricos]] — eixos cartesianos baseados em $\mathbb{R}$; intervalos usados na descrição de monotonicidade e imagem
 - [[Funções Trigonométricas]] — aplicação do estudo de gráficos às funções sen, cos, tg

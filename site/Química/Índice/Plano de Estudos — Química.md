@@ -1,8 +1,7 @@
 ---
 title: Plano de Estudos — Química
 description: Referência ao plano de estudos da Graduação em Química — documento interno do vault de origem.
-tipo: stub
-noindex: true
+tipo: indice
 tags:
   - quimica
   - planejamento

@@ -1,6 +1,6 @@
 ---
 title: Logos Archive
-description: Base de conhecimento pessoal de Jhow — notas de estudo em Graduação em Química e Engenharia IA & Dados.
+description: Base de conhecimento pessoal de Jhow — notas de estudo em Química e Engenharia IA & Dados.
 tipo: indice
 ---
 
@@ -14,7 +14,7 @@ Construída com [Quartz v4](https://quartz.jzhao.xyz/) a partir de um vault Obsi
 
 ## Trilhas de Estudo
 
-- [[Graduação em Química]] — Notas por semestre/disciplina do curso de Química.
+- [[Química]] — Notas por semestre/disciplina do curso de Química.
 
 ---
 

@@ -469,7 +469,7 @@ _Cada lado converge para um valor diferente: o limite bilateral é impossível._
 ## Conexões
 
 - [[Matemática]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
+- [[Química]] — Roadmap da graduação
 - [[Funções]] — pré-requisito: conceito de função, domínio; limite é propriedade do comportamento de funções
 - [[Funções e Gráficos]] — pré-requisito: interpretação visual de assíntotas verticais (limite infinito) e horizontais (limite no infinito)
 - [[Funções Trigonométricas]] — pré-requisito: $\operatorname{sen} x$, $\operatorname{cos} x$, $\operatorname{tg} x$ — usados no limite fundamental

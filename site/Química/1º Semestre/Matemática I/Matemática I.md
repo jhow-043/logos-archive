@@ -76,10 +76,10 @@ tipo: moc
 ## Conexões
 
 - [[Matemática]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
+- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Fundamentos de Química I]] — Usa álgebra, notação científica e proporções
 
 ---
 
-> [[Graduação em Química]] ← Roadmap | [[1º Semestre]] ← Semestre
+> [[Química]] ← Roadmap | [[1º Semestre]] ← Semestre

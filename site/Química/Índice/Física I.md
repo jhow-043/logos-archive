@@ -1,8 +1,7 @@
 ---
 title: Física I
 description: Disciplina Física I — mecânica clássica, cinemática, dinâmica e leis de conservação, como suporte à graduação em Química.
-tipo: stub
-noindex: true
+tipo: indice
 tags:
   - fisica
   - area

@@ -1,8 +1,7 @@
 ---
 title: Matemática
 description: Área de conhecimento — Matemática. Cobre Matemática I, II, Cálculo e Álgebra Linear como suporte à graduação.
-tipo: stub
-noindex: true
+tipo: indice
 tags:
   - matematica
   - area

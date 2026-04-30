@@ -363,7 +363,7 @@ Zeros em $[0, 2\pi]$: $x = \pi$ e $x = \dfrac{5\pi}{3}$.
 ## Conexões
 
 - [[Matemática]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
+- [[Química]] — Roadmap da graduação
 - [[Trigonometria na Circunferência]] — pré-requisito direto: definição das funções via ciclo trigonométrico, quadrantes, valores notáveis, relações fundamentais
 - [[Funções e Gráficos]] — pré-requisito direto: framework de análise gráfica (leitura, paridade, monotonicidade, transformações), aplicado aqui às funções trigonométricas
 - [[Funções]] — pré-requisito: conceito de função, domínio máximo, periodicidade como propriedade geral

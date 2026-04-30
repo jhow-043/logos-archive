@@ -229,7 +229,7 @@ $$\boxed{d_1 = 2{,}70\ \text{g/mL} \mid d_2 = 2{,}7\ \text{g/mL} \mid d_3 = 2{,}
 - [[Grandezas Físicas e Sistema Internacional (SI)]] — nota anterior (unidades e notação científica)
 - [[Fundamentos de Química I]] — MOC da disciplina
 - [[Química]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
+- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Matemática I]] — Arredondamento, potências de 10, notação científica
 - [[Precisão × Exatidão e Tratamento de Erros]] — próximo tópico da U1

@@ -1,8 +1,7 @@
 ---
 title: Física
 description: Área de conhecimento — Física. Cobre Física I, II e tópicos avançados como suporte às demais disciplinas da graduação.
-tipo: stub
-noindex: true
+tipo: indice
 tags:
   - fisica
   - area

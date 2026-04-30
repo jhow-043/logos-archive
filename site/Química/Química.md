@@ -1,14 +1,13 @@
 ---
-title: Graduação em Química
-description: Trilha da graduação em Química. Organizada por semestre, com notas de
-  estudo, exercícios e relatórios de laboratório.
+title: Química
+description: Trilha da graduação em Química. Organizada por semestre, com notas de estudo, exercícios e relatórios de laboratório.
 tags:
 - quimica
 date: 2026-04-16
 tipo: moc
 ---
 
-# 🧪 Graduação em Química
+# 🧪 Química
 
 > Trilha da graduação em Química. Organizada por semestre, com notas de estudo, exercícios e relatórios de laboratório.
 
@@ -24,7 +23,6 @@ tipo: moc
 
 ## Áreas de Conhecimento
 
-- [[Química]] — Fundamentos de Química Geral, Orgânica, Analítica, Físico-Química, Experimental
 - [[Física]] — Física I, II e além
 - [[Matemática]] — Matemática I, II, Cálculo e além
 
