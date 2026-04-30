@@ -419,13 +419,13 @@ $$f(0) = 0 - 0 + 3 = 3 \implies \text{ponto } (0, 3)$$
 
 ## Conexões
 
-- [[Matemática]] — MOC da área
+- Matemática — MOC da área
 - [[Química]] — Roadmap da graduação
 - [[Funções]] — pré-requisito direto (definição formal, domínio/imagem, classificação, inversa)
 - [[Conjuntos Numéricos]] — eixos cartesianos baseados em $\mathbb{R}$; intervalos usados na descrição de monotonicidade e imagem
 - [[Funções Trigonométricas]] — aplicação do estudo de gráficos às funções sen, cos, tg
 - [[Trigonometria na Circunferência]] — fornece os valores que definem as funções trigonométricas
-- [[Física]] — gráficos de posição × tempo, velocidade × tempo; funções afim e quadrática em cinemática
+- Física — gráficos de posição × tempo, velocidade × tempo; funções afim e quadrática em cinemática
 
 ## Fontes
 

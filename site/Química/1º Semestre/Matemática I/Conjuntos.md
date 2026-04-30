@@ -290,7 +290,7 @@ $$n\!\left((Q \cup F \cup M)^c\right) = n(U) - n(Q \cup F \cup M) = 40 - 34 = 6$
 
 ## Conexões
 
-- [[Matemática]] — MOC da área
+- Matemática — MOC da área
 - [[Química]] — Roadmap da graduação
 - [[Conjuntos Numéricos]] — extensão direta: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ são conjuntos com inclusão encadeada (próximo tópico)
 - Funções — domínio, contradomínio e imagem são conjuntos; a definição formal de função depende desta linguagem

@@ -334,12 +334,12 @@ $$f(f^{-1}(x)) = f\!\left(\frac{x+1}{3}\right) = 3 \cdot \frac{x+1}{3} - 1 = (x 
 
 ## Conexões
 
-- [[Matemática]] — MOC da área
+- Matemática — MOC da área
 - [[Química]] — Roadmap da graduação
 - [[Conjuntos]] — pré-requisito: domínio, contradomínio e imagem são conjuntos; operações de conjunto usadas em domínio máximo
 - [[Conjuntos Numéricos]] — pré-requisito: domínio e imagem tipicamente subconjuntos de $\mathbb{R}$; intervalos usados na notação de domínio
 - [[Funções e Gráficos]] — representação visual, paridade, monotonicidade, funções específicas (afim, quadrática, exponencial, log)
-- [[Física]] — posição, velocidade, força como funções do tempo; composição de grandezas
+- Física — posição, velocidade, força como funções do tempo; composição de grandezas
 
 ## Fontes
 

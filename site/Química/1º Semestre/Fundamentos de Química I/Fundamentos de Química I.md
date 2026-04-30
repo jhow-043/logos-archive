@@ -75,8 +75,8 @@ tipo: moc
 - [[Química]] — MOC da área
 - [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
-- [[Física]] — Energia, grandezas e medidas em comum
-- [[Matemática]] — Álgebra e notação científica aplicadas
+- Física — Energia, grandezas e medidas em comum
+- Matemática — Álgebra e notação científica aplicadas
 
 ---
 

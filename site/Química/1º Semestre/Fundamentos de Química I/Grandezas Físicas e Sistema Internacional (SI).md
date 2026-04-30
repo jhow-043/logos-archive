@@ -265,7 +265,7 @@ $$\boxed{m = 9{,}65\ \text{kg} \quad;\quad d = 19\,300\ \text{kg/m}^3 = 19{,}3\ 
 - [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Matemática I]] — Notação científica, potências de 10, álgebra dimensional
-- [[Física]] — Grandezas físicas, SI, análise dimensional
+- Física — Grandezas físicas, SI, análise dimensional
 - [[Algarismos Significativos]] — próximo tópico da U1
 
 ---

@@ -21,4 +21,4 @@ Construída com [Quartz v4](https://quartz.jzhao.xyz/) a partir de um vault Obsi
 ## Sobre
 
 Este site é gerado automaticamente a partir de um vault Obsidian sincronizado via GitHub Actions.
-O conteúdo cobre áreas como [[Química]], [[Física]], [[Matemática]] e Engenharia de Dados.
+O conteúdo cobre áreas como [[Química]], Física, Matemática e Engenharia de Dados.

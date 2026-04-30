@@ -137,11 +137,11 @@ Verificação: $\left(\frac{3}{5}\right)^{2} + \left(\frac{4}{5}\right)^{2} = \f
 
 ## Conexões
 
-- [[Matemática]] — MOC da área
+- Matemática — MOC da área
 - [[Química]] — Roadmap da graduação
 - Teorema de Pitágoras — pré-requisito direto
 - [[Trigonometria na Circunferência]] — extensão natural (próximo tópico)
-- [[Física]] — vetores e decomposição de forças usam sen/cos diretamente
+- Física — vetores e decomposição de forças usam sen/cos diretamente
 
 ## Fontes
 

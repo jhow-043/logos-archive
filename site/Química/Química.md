@@ -23,8 +23,8 @@ tipo: moc
 
 ## Áreas de Conhecimento
 
-- [[Física]] — Física I, II e além
-- [[Matemática]] — Matemática I, II, Cálculo e além
+- Física — Física I, II e além
+- Matemática — Matemática I, II, Cálculo e além
 
 ---
 
@@ -47,4 +47,4 @@ tipo: moc
 
 ---
 
-> **Plano de Estudos** · [[Plano de Estudos — Química]]
+> **Plano de Estudos** · Plano de Estudos — Química
