@@ -39,18 +39,6 @@ tipo: moc
 
 ---
 
-## Notas da Disciplina
-
-> [!progresso] Dataview
-> ```dataview
-> TABLE status AS "Status", created AS "Criado"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Fundamentos de Química I"
-> WHERE tipo = "estudo"
-> SORT created ASC
-> ```
-
----
-
 ## Material da Disciplina
 
 - `02 - Áreas/Química/U1 - Conceitos fundamentais de química.pdf`

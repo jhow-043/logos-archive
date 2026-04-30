@@ -61,18 +61,6 @@ tipo: moc
 
 ---
 
-## Notas da Disciplina
-
-> [!progresso] Dataview
-> ```dataview
-> TABLE status AS "Status", created AS "Criado"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Matemática I"
-> WHERE tipo = "estudo"
-> SORT created ASC
-> ```
-
----
-
 ## Conexões
 
 - Matemática — MOC da área
