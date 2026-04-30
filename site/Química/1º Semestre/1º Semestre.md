@@ -13,28 +13,39 @@ tipo: moc
 
 ---
 
-## Disciplinas
+## Fundamentos de Química I 🟡
 
-| Disciplina | Status |
-| ---------- | ------ |
-| [[Fundamentos de Química I]] | 🟡 |
-| Física I | 🔲 |
-| Matemática I | 🔲 |
-| Introdução à Química Experimental I | 🔲 |
-| Ciclo de Leituras | 🔲 |
-| Educação Científica e Sociedade | 🔲 |
+→ [[Fundamentos de Química I]]
 
 ---
 
-## Notas do Semestre
+## Matemática I 🟡
 
-> [!progresso] Dataview
-> ```dataview
-> TABLE status AS "Status", disciplina AS "Disciplina"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre"
-> WHERE tipo = "estudo"
-> SORT disciplina ASC
-> ```
+→ [[Matemática I]]
+
+---
+
+## Física I 🔲
+
+Sem notas ainda.
+
+---
+
+## Introdução à Química Experimental I 🔲
+
+Sem notas ainda.
+
+---
+
+## Ciclo de Leituras 🔲
+
+Sem notas ainda.
+
+---
+
+## Educação Científica e Sociedade 🔲
+
+Sem notas ainda.
 
 ---
 
