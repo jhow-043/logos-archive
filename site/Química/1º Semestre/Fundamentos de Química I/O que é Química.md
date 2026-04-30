@@ -206,10 +206,7 @@ $$\boxed{d = 2{,}70\ \text{g/cm}^3 \implies \text{Alumínio (Al)}}$$
 
 - [[Química]] — MOC da área de Química
 - [[Fundamentos de Química I]] — MOC da disciplina
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
-- Física — Conceito de energia, massa, peso e grandezas físicas em comum
-- Matemática — Operações com proporções e álgebra (base para $d = m/V$)
 - [[Estados da Matéria e Classificação]] — próximo tópico da U1
 
 ---

@@ -302,11 +302,8 @@ $$S = [-1, 4]$$
 
 ## Conexões
 
-- Matemática — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[Conjuntos]] — pré-requisito direto (linguagem, operações, inclusão)
 - [[Funções]] — domínio, contradomínio e imagem são subconjuntos de $\mathbb{R}$ (próximo tópico)
-- Física — grandezas físicas medidas em $\mathbb{R}$; ordem de grandeza; módulo de vetores
 
 ## Fontes
 

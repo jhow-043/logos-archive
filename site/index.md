@@ -1,24 +1,15 @@
 ---
-title: Logos Archive
-description: Base de conhecimento pessoal de Jhow — notas de estudo em Química e Engenharia IA & Dados.
+title: Notas de Química
+description: Notas de estudo da graduação em Química — organizadas por disciplina e semestre.
 tipo: indice
 ---
 
-# Logos Archive
+# Notas de Química
 
-Base de conhecimento pessoal com notas de estudo, exercícios, referências técnicas e relatórios de laboratório.
+Notas de estudo organizadas por disciplina e semestre, cobrindo Fundamentos de Química, Matemática e outras matérias do curso.
 
-Construída com [Quartz v4](https://quartz.jzhao.xyz/) a partir de um vault Obsidian.
-
----
-
-## Trilhas de Estudo
-
-- [[Química]] — Notas por semestre/disciplina do curso de Química.
+→ **[[Química|Ver todas as disciplinas]]**
 
 ---
 
-## Sobre
-
-Este site é gerado automaticamente a partir de um vault Obsidian sincronizado via GitHub Actions.
-O conteúdo cobre áreas como [[Química]], Física, Matemática e Engenharia de Dados.
+**Legenda:** ✅ concluído · 🟡 em progresso · 🔲 não iniciado ainda

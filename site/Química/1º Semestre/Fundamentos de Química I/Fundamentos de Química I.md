@@ -39,13 +39,6 @@ tipo: moc
 
 ---
 
-## Material da Disciplina
-
-- `02 - Áreas/Química/U1 - Conceitos fundamentais de química.pdf`
-- `02 - Áreas/Química/UNIDADE 2 - ÁTOMOS, ÍONS E MOLÉCULAS 2026.pdf`
-- `02 - Áreas/Química/UNIDADE 3 - ESTEQUIOMETRIA CÁLCULOS COM FÓRMULAS.pdf`
-- `02 - Áreas/Química/U4 - Estequiometria e Reações em solução.pdf`
-
 ---
 
 ## Bibliografia
@@ -61,10 +54,7 @@ tipo: moc
 ## Conexões
 
 - [[Química]] — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
-- Física — Energia, grandezas e medidas em comum
-- Matemática — Álgebra e notação científica aplicadas
 
 ---
 

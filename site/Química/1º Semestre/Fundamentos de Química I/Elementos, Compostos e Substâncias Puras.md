@@ -222,7 +222,6 @@ $$\boxed{\%m(\text{NaCl}) = 5{,}0\% \quad;\quad \text{solução = mistura; NaCl 
 - [[Estados da Matéria e Classificação]] — nota anterior (introdução à classificação da matéria)
 - [[Fundamentos de Química I]] — MOC da disciplina
 - [[Química]] — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Matemática I]] — Álgebra para cálculos de proporção e %m
 - [[Misturas Homogêneas, Heterogêneas e Coloides]] — próximo tópico da U1

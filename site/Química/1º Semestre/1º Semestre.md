@@ -25,28 +25,10 @@ tipo: moc
 
 ---
 
-## Física I 🔲
+## Outras disciplinas
 
-Sem notas ainda.
-
----
-
-## Introdução à Química Experimental I 🔲
-
-Sem notas ainda.
+Física I · Introdução à Química Experimental I · Ciclo de Leituras · Educação Científica e Sociedade — notas em breve.
 
 ---
 
-## Ciclo de Leituras 🔲
-
-Sem notas ainda.
-
----
-
-## Educação Científica e Sociedade 🔲
-
-Sem notas ainda.
-
----
-
-> [[Química]] ← Roadmap
+> [[Química]] ← Voltar

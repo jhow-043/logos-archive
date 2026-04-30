@@ -218,9 +218,7 @@ $$\boxed{d_1 = d_2 = 1{,}00\ \text{g/mL} \implies \text{densidade é intensiva; 
 - [[O que é Química]] — nota anterior (definição de matéria, densidade, transformações)
 - [[Fundamentos de Química I]] — MOC da disciplina
 - [[Química]] — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
-- Física — Energia cinética, modelo cinético-molecular, termodinâmica de fases
 - [[Matemática I]] — Álgebra para manipulação de $d = m/V$
 - [[Elementos, Compostos e Substâncias Puras]] — próximo tópico da U1
 

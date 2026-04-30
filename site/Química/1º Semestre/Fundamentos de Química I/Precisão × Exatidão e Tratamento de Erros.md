@@ -251,7 +251,6 @@ $$\boxed{\bar{x}_A = 5{,}420\ \text{g},\, s_A = 0{,}001\ \text{g} \text{ (precis
 - [[Grandezas Físicas e Sistema Internacional (SI)]] — unidades e magnitude das medidas
 - [[Fundamentos de Química I]] — MOC da disciplina — **última nota da U1**
 - [[Química]] — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Matemática I]] — Estatística descritiva: média, desvio padrão, variância
 

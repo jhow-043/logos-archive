@@ -468,15 +468,12 @@ _Cada lado converge para um valor diferente: o limite bilateral é impossível._
 
 ## Conexões
 
-- Matemática — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[Funções]] — pré-requisito: conceito de função, domínio; limite é propriedade do comportamento de funções
 - [[Funções e Gráficos]] — pré-requisito: interpretação visual de assíntotas verticais (limite infinito) e horizontais (limite no infinito)
 - [[Funções Trigonométricas]] — pré-requisito: $\operatorname{sen} x$, $\operatorname{cos} x$, $\operatorname{tg} x$ — usados no limite fundamental
 - [[Trigonometria na Circunferência]] — base para a desigualdade geométrica usada na demonstração do limite fundamental
 - [[Conjuntos Numéricos]] — vizinhança $0 < |x-p| < \delta$ é intervalo aberto; $\varepsilon$, $\delta$ pertencem a $\mathbb{R}^+$
 - Continuidade (próximo tópico — aula 27/abr) — usa limites para definir quando $f$ é contínua em $p$
-- Física — velocidade instantânea como $\displaystyle\lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t}$; taxa de reação como limite de razões de variação
 
 ## Fontes
 

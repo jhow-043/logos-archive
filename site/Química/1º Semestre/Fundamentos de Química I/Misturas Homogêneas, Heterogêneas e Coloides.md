@@ -242,7 +242,6 @@ $$\boxed{\%m/V(\text{NaCl}) = 5{,}0\% \quad;\quad \text{procedimento: filtraçã
 - [[Elementos, Compostos e Substâncias Puras]] — nota anterior (base para distinguir substância pura de mistura)
 - [[Fundamentos de Química I]] — MOC da disciplina
 - [[Química]] — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Matemática I]] — Álgebra para cálculos de concentração
 - [[Grandezas Físicas e Sistema Internacional (SI)]] — próximo tópico da U1

@@ -9,7 +9,7 @@ tipo: moc
 
 # 🧪 Química
 
-> Trilha da graduação em Química. Organizada por semestre, com notas de estudo, exercícios e relatórios de laboratório.
+> Notas de estudo da graduação em Química, organizadas por semestre e disciplina.
 
 ---
 
@@ -17,34 +17,21 @@ tipo: moc
 
 | Semestre | Status |
 | -------- | ------ |
-| [[1º Semestre]] 🟢 | 🔲 |
+| [[1º Semestre]] | 🟢 Em andamento |
 
 ---
 
-## Áreas de Conhecimento
+## 1º Semestre — Disciplinas
 
-- Física — Física I, II e além
-- Matemática — Matemática I, II, Cálculo e além
-
----
-
-## Disciplinas do 1º Semestre
-
-| Disciplina | Pasta |
-| ---------- | ----- |
-| Fundamentos de Química I | `01 - Roadmaps/Graduação em Química/1º Semestre/Fundamentos de Química I/` |
-| Física I | `01 - Roadmaps/Graduação em Química/1º Semestre/Física I/` |
-| Matemática I | `01 - Roadmaps/Graduação em Química/1º Semestre/Matemática I/` |
-| Introdução à Química Experimental I | `01 - Roadmaps/Graduação em Química/1º Semestre/Introdução à Química Experimental I/` |
-| Ciclo de Leituras | `01 - Roadmaps/Graduação em Química/1º Semestre/Ciclo de Leituras/` |
-| Educação Científica e Sociedade | `01 - Roadmaps/Graduação em Química/1º Semestre/Educação Científica e Sociedade/` |
+| Disciplina | Status |
+| ---------- | ------ |
+| [[Fundamentos de Química I]] | 🟡 Em progresso |
+| [[Matemática I]] | 🟡 Em progresso |
+| Física I | 🔲 Em breve |
+| Introdução à Química Experimental I | 🔲 Em breve |
+| Ciclo de Leituras | 🔲 Em breve |
+| Educação Científica e Sociedade | 🔲 Em breve |
 
 ---
 
-## Projetos & Laboratório
-
-- `04 - Projetos Práticos/Relatórios de Lab/` — Relatórios de experimentos práticos
-
----
-
-> **Plano de Estudos** · Plano de Estudos — Química
+**Legenda:** ✅ concluído · 🟡 em progresso · 🔲 não iniciado

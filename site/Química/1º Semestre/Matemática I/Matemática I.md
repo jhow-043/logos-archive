@@ -63,8 +63,6 @@ tipo: moc
 
 ## Conexões
 
-- Matemática — MOC da área
-- [[Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Fundamentos de Química I]] — Usa álgebra, notação científica e proporções
 
