@@ -39,6 +39,21 @@ tipo: moc
 
 ---
 
+## Notas da Disciplina
+
+> [!progresso] Dataview
+> ```dataview
+> TABLE status AS "Status", created AS "Criado"
+> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Fundamentos de Química I"
+> WHERE tipo = "estudo"
+> SORT created ASC
+> ```
+
+---
+
+## Material da Disciplina
+
+
 ---
 
 ## Bibliografia
@@ -54,8 +69,11 @@ tipo: moc
 ## Conexões
 
 - [[Química]] — MOC da área
+- [[Graduação em Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
+- [[Física]] — Energia, grandezas e medidas em comum
+- [[Matemática]] — Álgebra e notação científica aplicadas
 
 ---
 
-> [[Química]] ← Roadmap | [[1º Semestre]] ← Semestre
+> [[Graduação em Química]] ← Roadmap | [[1º Semestre]] ← Semestre

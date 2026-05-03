@@ -262,8 +262,10 @@ $$\boxed{m = 9{,}65\ \text{kg} \quad;\quad d = 19\,300\ \text{kg/m}^3 = 19{,}3\ 
 - [[Misturas Homogêneas, Heterogêneas e Coloides]] — nota anterior (concentração de misturas já usa g/L e %m/V)
 - [[Fundamentos de Química I]] — MOC da disciplina
 - [[Química]] — MOC da área
+- [[Graduação em Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Matemática I]] — Notação científica, potências de 10, álgebra dimensional
+- [[Física I]] — Grandezas físicas, SI, análise dimensional
 - [[Algarismos Significativos]] — próximo tópico da U1
 
 ---

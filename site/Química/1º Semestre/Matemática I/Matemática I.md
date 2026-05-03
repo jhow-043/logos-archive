@@ -61,11 +61,25 @@ tipo: moc
 
 ---
 
+## Notas da Disciplina
+
+> [!progresso] Dataview
+> ```dataview
+> TABLE status AS "Status", created AS "Criado"
+> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Matemática I"
+> WHERE tipo = "estudo"
+> SORT created ASC
+> ```
+
+---
+
 ## Conexões
 
+- [[Matemática]] — MOC da área
+- [[Graduação em Química]] — Roadmap da graduação
 - [[1º Semestre]] — Semestre ativo
 - [[Fundamentos de Química I]] — Usa álgebra, notação científica e proporções
 
 ---
 
-> [[Química]] ← Roadmap | [[1º Semestre]] ← Semestre
+> [[Graduação em Química]] ← Roadmap | [[1º Semestre]] ← Semestre

@@ -341,8 +341,11 @@ $\dfrac{25}{16} = \dfrac{25}{16}$ ✓ — resultado confirmado.
 
 ## Conexões
 
+- [[Matemática]] — MOC da área
+- [[Graduação em Química]] — Roadmap da graduação
 - [[Trigonometria no Triângulo Retângulo]] — pré-requisito direto (razões trigonométricas originais)
 - Funções Trigonométricas — extensão natural (gráficos de sen, cos, tg no domínio real)
+- [[Física]] — movimento circular uniforme, oscilações, decomposição de vetores, ondas
 
 ## Fontes
 
