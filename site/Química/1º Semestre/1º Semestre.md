@@ -28,13 +28,34 @@ tipo: moc
 
 ## Notas do Semestre
 
-> [!progresso] Dataview
-> ```dataview
-> TABLE status AS "Status", disciplina AS "Disciplina"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre"
-> WHERE tipo = "estudo"
-> SORT disciplina ASC
-> ```
+### Fundamentos de Química I
+
+- [[O que é Química]]
+- [[Estados da Matéria e Classificação]]
+- [[Elementos, Compostos e Substâncias Puras]]
+- [[Misturas Homogêneas, Heterogêneas e Coloides]]
+- [[Grandezas Físicas e Sistema Internacional (SI)]]
+- [[Algarismos Significativos]]
+- [[Precisão × Exatidão e Tratamento de Erros]]
+
+### Matemática I
+
+- [[Conjuntos]]
+- [[Conjuntos Numéricos]]
+- [[Funções]]
+- [[Funções e Gráficos]]
+- [[Funções Trigonométricas]]
+- [[Trigonometria no Triângulo Retângulo]]
+- [[Trigonometria na Circunferência]]
+- [[Limites]]
+
+### Introdução à Química Experimental I
+
+- [[Vidrarias e Equipamentos de Laboratório]]
+- [[Técnicas de Pesagem e Medidas de Volume]]
+- [[Transformações Físicas e Químicas]]
+- [[Preparo de Soluções]]
+- [[Reações de Identificação por Dupla-Troca]]
 
 ---
 
