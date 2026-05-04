@@ -1,7 +1,7 @@
 ---
-title: T01 â€” Pressupostos TeÃ³ricos da Abordagem CTS
-description: Wildson & Mortimer â€” AnÃ¡lise dos fundamentos teÃ³ricos que sustentam
-  a abordagem CTS no ensino de CiÃªncias. Bloco I â€” Prova I.
+title: T01 — Pressupostos Teóricos da Abordagem CTS
+description: Wildson & Mortimer — Análise dos fundamentos teóricos que sustentam a
+  abordagem CTS no ensino de Ciências. Bloco I — Prova I.
 tags:
 - quimica
 date: 2026-04-30
@@ -9,59 +9,59 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T01 â€” Pressupostos TeÃ³ricos da Abordagem CTS
+# T01 — Pressupostos Teóricos da Abordagem CTS
 
-> Wildson & Mortimer â€” AnÃ¡lise dos fundamentos teÃ³ricos que sustentam a abordagem CTS no ensino de CiÃªncias. **Bloco I â€” Prova I.**
+> Wildson & Mortimer — Análise dos fundamentos teóricos que sustentam a abordagem CTS no ensino de Ciências. **Bloco I — Prova I.**
 
 ---
 
-## SÃ­ntese
+## Síntese
 
-Este texto estabelece os fundamentos teÃ³ricos e filosÃ³ficos da abordagem CTS (CiÃªncia-Tecnologia-Sociedade), desconstruindo mitos sobre a neutralidade da ciÃªncia e refutando a ideia de que o progresso cientÃ­fico beneficia automaticamente a sociedade. Articula pressupostos epistemolÃ³gicos com contribuiÃ§Ãµes de Habermas, Latour e Woolgar, apresentando a CTS como modelo curricular que integra contextos sociais, polÃ­ticos e ambientais ao ensino de ciÃªncias. Defende que compreender as relaÃ§Ãµes entre ciÃªncia e sociedade Ã© essencial para formar cidadÃ£os crÃ­ticos e conscientes das implicaÃ§Ãµes tecnolÃ³gicas em suas vidas.
+Este texto estabelece os fundamentos teóricos e filosóficos da abordagem CTS (Ciência-Tecnologia-Sociedade), desconstruindo mitos sobre a neutralidade da ciência e refutando a ideia de que o progresso científico beneficia automaticamente a sociedade. Articula pressupostos epistemológicos com contribuições de Habermas, Latour e Woolgar, apresentando a CTS como modelo curricular que integra contextos sociais, políticos e ambientais ao ensino de ciências. Defende que compreender as relações entre ciência e sociedade é essencial para formar cidadãos críticos e conscientes das implicações tecnológicas em suas vidas.
 
 ---
 
 ## Argumentos Centrais
 
-- A ciÃªncia nÃ£o Ã© neutra; Ã© uma construÃ§Ã£o social influenciada por valores, interesses polÃ­ticos e econÃ´micos, contrariando o mito da cientificidade pura.
-- O desenvolvimento tecnolÃ³gico nÃ£o deve ser visto como simples aplicaÃ§Ã£o de conhecimento cientÃ­fico, mas como fenÃ´meno carregado de dimensÃµes sociais, culturais e Ã©ticas.
-- A abordagem CTS rejeita modelos curriculares tradicionais que priorizam memorizaÃ§Ã£o de conceitos isolados, propondo integraÃ§Ã£o entre conteÃºdo cientÃ­fico e realidade do educando.
-- A formaÃ§Ã£o cientÃ­fico-tecnolÃ³gica deve capacitar cidadÃ£os para participaÃ§Ã£o democrÃ¡tica em decisÃµes que envolvam ciÃªncia e tecnologia na sociedade.
-- O ensino CTS fundamenta-se em perspectivas freireanas e habermasianas, buscando desenvolver consciÃªncia crÃ­tica sobre implicaÃ§Ãµes sociais da ciÃªncia.
+- A ciência não é neutra; é uma construção social influenciada por valores, interesses políticos e econômicos, contrariando o mito da cientificidade pura.
+- O desenvolvimento tecnológico não deve ser visto como simples aplicação de conhecimento científico, mas como fenômeno carregado de dimensões sociais, culturais e éticas.
+- A abordagem CTS rejeita modelos curriculares tradicionais que priorizam memorização de conceitos isolados, propondo integração entre conteúdo científico e realidade do educando.
+- A formação científico-tecnológica deve capacitar cidadãos para participação democrática em decisões que envolvam ciência e tecnologia na sociedade.
+- O ensino CTS fundamenta-se em perspectivas freireanas e habermasianas, buscando desenvolver consciência crítica sobre implicações sociais da ciência.
 
 ---
 
 ## Conceitos-Chave
 
-| Conceito | DefiniÃ§Ã£o no texto |
+| Conceito | Definição no texto |
 |---|---|
-| CTS (CiÃªncia-Tecnologia-Sociedade) | Abordagem pedagÃ³gica que articula conhecimentos cientÃ­ficos com contextos tecnolÃ³gicos e sociais, rejeitando a neutralidade da ciÃªncia. |
-| AlfabetizaÃ§Ã£o CientÃ­fica e TecnolÃ³gica (ACT) | Capacidade do cidadÃ£o compreender e questionar fenÃ´menos cientÃ­ficos e tecnolÃ³gicos em sua vida cotidiana para exercer cidadania informada. |
-| Mito da neutralidade cientÃ­fica | CrenÃ§a falsa de que a ciÃªncia Ã© objetiva e desvinculada de interesses polÃ­ticos, econÃ´micos e sociais; a CTS questiona este pressuposto. |
-| Cientificismo | SupervalorizaÃ§Ã£o da ciÃªncia como soluÃ§Ã£o de todos os problemas humanos; engendra dominaÃ§Ã£o ideolÃ³gica ao legitimar desigualdades como "naturais". |
+| CTS (Ciência-Tecnologia-Sociedade) | Abordagem pedagógica que articula conhecimentos científicos com contextos tecnológicos e sociais, rejeitando a neutralidade da ciência. |
+| Alfabetização Científica e Tecnológica (ACT) | Capacidade do cidadão compreender e questionar fenômenos científicos e tecnológicos em sua vida cotidiana para exercer cidadania informada. |
+| Mito da neutralidade científica | Crença falsa de que a ciência é objetiva e desvinculada de interesses políticos, econômicos e sociais; a CTS questiona este pressuposto. |
+| Cientificismo | Supervalorização da ciência como solução de todos os problemas humanos; engendra dominação ideológica ao legitimar desigualdades como "naturais". |
 
 ---
 
-## RelaÃ§Ã£o com o Ensino de CiÃªncias
+## Relação com o Ensino de Ciências
 
-Os autores demonstram que o ensino tradicional, desconectado da realidade social, limita a formaÃ§Ã£o de cidadÃ£os crÃ­ticos. Fundamentam pedagogicamente a necessidade de contextualizar conteÃºdos cientÃ­ficos em problemas sociais e tecnolÃ³gicos autÃªnticos, para que alunos percebam a relevÃ¢ncia do aprendizado para suas vidas e para a participaÃ§Ã£o democrÃ¡tica. O currÃ­culo CTS estrutura-se em trÃªs eixos: aquisiÃ§Ã£o de conhecimentos, desenvolvimento de habilidades e formaÃ§Ã£o de valores coletivos (solidariedade, responsabilidade social).
-
----
-
-## ReflexÃ£o CrÃ­tica
-
-Embora o texto forneÃ§a base teÃ³rica robusta para a abordagem CTS, deixa em aberto como operacionalizar concretamente esses pressupostos em contextos escolares heterogÃªneos, com professores de formaÃ§Ã£o variada e estruturas curriculares rigidamente estabelecidas. HÃ¡ tensÃ£o entre a crÃ­tica ao mito da neutralidade e a necessidade de manter rigor cientÃ­fico â€” os autores reconhecem que admitir a construÃ§Ã£o social da ciÃªncia nÃ£o implica adotar relativismo absoluto.
+Os autores demonstram que o ensino tradicional, desconectado da realidade social, limita a formação de cidadãos críticos. Fundamentam pedagogicamente a necessidade de contextualizar conteúdos científicos em problemas sociais e tecnológicos autênticos, para que alunos percebam a relevância do aprendizado para suas vidas e para a participação democrática. O currículo CTS estrutura-se em três eixos: aquisição de conhecimentos, desenvolvimento de habilidades e formação de valores coletivos (solidariedade, responsabilidade social).
 
 ---
 
-## ConexÃµes
+## Reflexão Crítica
 
-- [[EducaÃ§Ã£o CientÃ­fica e Sociedade]] â€” MOC da disciplina
-- PrÃ³ximos: [[T02 â€” RelevÃ¢ncia da Abordagem CTS no Ensino MÃ©dio]]
+Embora o texto forneça base teórica robusta para a abordagem CTS, deixa em aberto como operacionalizar concretamente esses pressupostos em contextos escolares heterogêneos, com professores de formação variada e estruturas curriculares rigidamente estabelecidas. Há tensão entre a crítica ao mito da neutralidade e a necessidade de manter rigor científico — os autores reconhecem que admitir a construção social da ciência não implica adotar relativismo absoluto.
+
+---
+
+## Conexões
+
+- [[Educação Científica e Sociedade]] — MOC da disciplina
+- Próximos: [[T02 — Relevância da Abordagem CTS no Ensino Médio]]
 
 ---
 
 ## Fonte
 
-- WILDSON, L. P. S.; MORTIMER, E. F. Pressupostos epistemolÃ³gicos para o ensino de CiÃªncias com enfoque CTS. **Texto 01** â€” 2QUI202.
-  `03 - Recursos/PDFs/EducaÃ§Ã£o CientÃ­fica e Sociedade/Texto 01_Wildson & Mortimer_Pressupostos teoricos da abordagem CTS.pdf`
+- WILDSON, L. P. S.; MORTIMER, E. F. Pressupostos epistemológicos para o ensino de Ciências com enfoque CTS. **Texto 01** — 2QUI202.
+  `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 01_Wildson & Mortimer_Pressupostos teoricos da abordagem CTS.pdf`

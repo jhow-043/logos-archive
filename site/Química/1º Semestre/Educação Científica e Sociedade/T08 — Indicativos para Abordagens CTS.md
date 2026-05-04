@@ -1,7 +1,7 @@
 ---
-title: T08 â€” Indicativos para Abordagens CTS
-description: CritÃ©rios e indicativos prÃ¡ticos para identificar e implementar abordagens
-  CTS em contextos de ensino. Bloco II â€” Trabalho Final da Disciplina (TFD).
+title: T08 — Indicativos para Abordagens CTS
+description: Critérios e indicativos práticos para identificar e implementar abordagens
+  CTS em contextos de ensino. Bloco II — Trabalho Final da Disciplina (TFD).
 tags:
 - quimica
 date: 2026-04-30
@@ -9,61 +9,61 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T08 â€” Indicativos para Abordagens CTS
+# T08 — Indicativos para Abordagens CTS
 
-> CritÃ©rios e indicativos prÃ¡ticos para identificar e implementar abordagens CTS em contextos de ensino. **Bloco II â€” Trabalho Final da Disciplina (TFD).**
+> Critérios e indicativos práticos para identificar e implementar abordagens CTS em contextos de ensino. **Bloco II — Trabalho Final da Disciplina (TFD).**
 
 ---
 
-## SÃ­ntese
+## Síntese
 
-Este texto sintetiza indicadores prÃ¡ticos e parÃ¢metros para que professores avaliem e melhorem a implementaÃ§Ã£o de abordagens CTS em suas aulas. Apresenta uma matriz de sete dimensÃµes de alfabetizaÃ§Ã£o (quatro cientÃ­ficas: prÃ¡tica, cÃ­vica, cultural, profissional; trÃªs tecnolÃ³gicas: prÃ¡tica, cÃ­vica, cultural) com descritores de como cada dimensÃ£o se manifesta em atividades escolares. Funciona como ferramenta de diagnÃ³stico e planejamento, permitindo que professores verifiquem se suas propostas desenvolvem mÃºltiplas dimensÃµes de alfabetizaÃ§Ã£o ou apenas algumas delas. **Bloco II â€” TFD.**
+Este texto sintetiza indicadores práticos e parâmetros para que professores avaliem e melhorem a implementação de abordagens CTS em suas aulas. Apresenta uma matriz de sete dimensões de alfabetização (quatro científicas: prática, cívica, cultural, profissional; três tecnológicas: prática, cívica, cultural) com descritores de como cada dimensão se manifesta em atividades escolares. Funciona como ferramenta de diagnóstico e planejamento, permitindo que professores verifiquem se suas propostas desenvolvem múltiplas dimensões de alfabetização ou apenas algumas delas. **Bloco II — TFD.**
 
 ---
 
 ## Argumentos Centrais
 
-- A abordagem CTS nÃ£o Ã© binÃ¡ria (faz/nÃ£o faz), mas gradual; professores podem desenvolver propostas que trabalhem CTS em diferentes nÃ­veis de profundidade e dimensionalidade.
-- Os indicadores prÃ¡ticos permitem autoavaliaÃ§Ã£o docente: professores conseguem identificar quais dimensÃµes de alfabetizaÃ§Ã£o suas aulas contemplam e quais estÃ£o negligenciando.
-- O equilÃ­brio entre dimensÃµes cientÃ­ficas e tecnolÃ³gicas nÃ£o Ã© automÃ¡tico; muitas aulas enfatizam excessivamente os conceitos cientÃ­ficos enquanto negligenciam os aspectos tecnolÃ³gicos.
-- A alfabetizaÃ§Ã£o cÃ­vica Ã© particularmente importante para CTS; refere-se Ã  capacidade de compreender implicaÃ§Ãµes coletivas de decisÃµes tecnolÃ³gicas e participar democraticamente na definiÃ§Ã£o de polÃ­ticas.
-- O framework Ã© suficientemente flexÃ­vel para adaptar-se a contextos escolares diversos (rural, urbano, perifÃ©rico, etc.).
+- A abordagem CTS não é binária (faz/não faz), mas gradual; professores podem desenvolver propostas que trabalhem CTS em diferentes níveis de profundidade e dimensionalidade.
+- Os indicadores práticos permitem autoavaliação docente: professores conseguem identificar quais dimensões de alfabetização suas aulas contemplam e quais estão negligenciando.
+- O equilíbrio entre dimensões científicas e tecnológicas não é automático; muitas aulas enfatizam excessivamente os conceitos científicos enquanto negligenciam os aspectos tecnológicos.
+- A alfabetização cívica é particularmente importante para CTS; refere-se à capacidade de compreender implicações coletivas de decisões tecnológicas e participar democraticamente na definição de políticas.
+- O framework é suficientemente flexível para adaptar-se a contextos escolares diversos (rural, urbano, periférico, etc.).
 
 ---
 
 ## Conceitos-Chave
 
-| Conceito | DefiniÃ§Ã£o no texto |
+| Conceito | Definição no texto |
 |---|---|
-| DimensÃµes de alfabetizaÃ§Ã£o | MÃºltiplas capacidades necessÃ¡rias para o cidadÃ£o atuar informadamente em sociedade tecnolÃ³gica; inclui conhecimentos, habilidades, valores e atitudes. |
-| AlfabetizaÃ§Ã£o cientÃ­fica prÃ¡tica | Capacidade de usar conhecimento cientÃ­fico para resolver problemas cotidianos. |
-| AlfabetizaÃ§Ã£o cientÃ­fica cÃ­vica | CompreensÃ£o das implicaÃ§Ãµes coletivas de problemas cientÃ­ficos e tecnolÃ³gicos; base para participaÃ§Ã£o democrÃ¡tica. |
-| AlfabetizaÃ§Ã£o tecnolÃ³gica | CompreensÃ£o de como as tecnologias funcionam, que problemas resolvem e que novos problemas criam socialmente. |
-| Indicadores de qualidade | Descritores observÃ¡veis que permitem avaliar se uma atividade educacional estÃ¡ atingindo os objetivos propostos. |
+| Dimensões de alfabetização | Múltiplas capacidades necessárias para o cidadão atuar informadamente em sociedade tecnológica; inclui conhecimentos, habilidades, valores e atitudes. |
+| Alfabetização científica prática | Capacidade de usar conhecimento científico para resolver problemas cotidianos. |
+| Alfabetização científica cívica | Compreensão das implicações coletivas de problemas científicos e tecnológicos; base para participação democrática. |
+| Alfabetização tecnológica | Compreensão de como as tecnologias funcionam, que problemas resolvem e que novos problemas criam socialmente. |
+| Indicadores de qualidade | Descritores observáveis que permitem avaliar se uma atividade educacional está atingindo os objetivos propostos. |
 
 ---
 
-## RelaÃ§Ã£o com o Ensino de CiÃªncias
+## Relação com o Ensino de Ciências
 
-O texto oferece ferramenta concreta que professores podem usar para planejar, avaliar e melhorar suas prÃ¡ticas. Funciona como ponte entre a teoria abstrata (conceitos de CTS) e a prÃ¡tica concreta (o que fazer em sala de aula). Reconhece que professores trabalham com limitaÃ§Ãµes reais (tempo, recursos) e oferece framework escalÃ¡vel e adaptÃ¡vel a diferentes contextos, sem exigir implementaÃ§Ã£o "perfeita" de todas as sete dimensÃµes simultaneamente.
-
----
-
-## ReflexÃ£o CrÃ­tica
-
-Apesar de sua utilidade, o texto nÃ£o aborda suficientemente como professores identificam ou criam temÃ¡ticas que permitam o desenvolvimento simultÃ¢neo de mÃºltiplas dimensÃµes de alfabetizaÃ§Ã£o em contextos escolares especÃ­ficos. O framework Ã© mais descritivo do que prescritivo â€” diz o que deve existir, mas nÃ£o como alcanÃ§ar cada dimensÃ£o na prÃ¡tica cotidiana.
+O texto oferece ferramenta concreta que professores podem usar para planejar, avaliar e melhorar suas práticas. Funciona como ponte entre a teoria abstrata (conceitos de CTS) e a prática concreta (o que fazer em sala de aula). Reconhece que professores trabalham com limitações reais (tempo, recursos) e oferece framework escalável e adaptável a diferentes contextos, sem exigir implementação "perfeita" de todas as sete dimensões simultaneamente.
 
 ---
 
-## ConexÃµes
+## Reflexão Crítica
 
-- [[EducaÃ§Ã£o CientÃ­fica e Sociedade]] â€” MOC da disciplina
-- Anterior: [[T07 â€” TrÃªs Momentos PedagÃ³gicos e Abordagem CTS]]
-- PrÃ³ximo: [[T09 â€” Ensino de QuÃ­mica num Enfoque CTS]]
+Apesar de sua utilidade, o texto não aborda suficientemente como professores identificam ou criam temáticas que permitam o desenvolvimento simultâneo de múltiplas dimensões de alfabetização em contextos escolares específicos. O framework é mais descritivo do que prescritivo — diz o que deve existir, mas não como alcançar cada dimensão na prática cotidiana.
+
+---
+
+## Conexões
+
+- [[Educação Científica e Sociedade]] — MOC da disciplina
+- Anterior: [[T07 — Três Momentos Pedagógicos e Abordagem CTS]]
+- Próximo: [[T09 — Ensino de Química num Enfoque CTS]]
 
 ---
 
 ## Fonte
 
-- Texto 08 â€” 2QUI202.
-  `03 - Recursos/PDFs/EducaÃ§Ã£o CientÃ­fica e Sociedade/Texto 08_Indicativos para abordagens CTS.pdf`
+- Texto 08 — 2QUI202.
+  `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 08_Indicativos para abordagens CTS.pdf`

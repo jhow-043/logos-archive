@@ -1,8 +1,8 @@
 ---
-title: Cap 4 â€” Leis de Newton do movimento
-description: 'A dinÃ¢mica responde Ã  pergunta que a cinemÃ¡tica ignora: por que um
-  objeto acelera? As trÃªs Leis de Newton estabelecem a relaÃ§Ã£o entre forÃ§a e movimento
-  â…'
+title: Cap 4 — Leis de Newton do movimento
+description: 'A dinâmica responde à pergunta que a cinemática ignora: por que um objeto
+  acelera? As três Leis de Newton estabelecem a relação entre força e movimento —
+  base d…'
 tags:
 - quimica
 date: 2026-04-30
@@ -10,65 +10,65 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 4 â€” Leis de Newton do movimento
+# Cap 4 — Leis de Newton do movimento
 
-> A dinÃ¢mica responde Ã  pergunta que a cinemÃ¡tica ignora: **por que** um objeto acelera? As trÃªs Leis de Newton estabelecem a relaÃ§Ã£o entre **forÃ§a** e **movimento** â€” base de toda a mecÃ¢nica clÃ¡ssica.
+> A dinâmica responde à pergunta que a cinemática ignora: **por que** um objeto acelera? As três Leis de Newton estabelecem a relação entre **força** e **movimento** — base de toda a mecânica clássica.
 
 ---
 
-## DefiniÃ§Ã£o
+## Definição
 
-**ForÃ§a** Ã© uma interaÃ§Ã£o entre dois objetos que pode alterar o estado de movimento de um deles. Ã‰ uma grandeza **vetorial** (tem magnitude, direÃ§Ã£o e sentido).
+**Força** é uma interação entre dois objetos que pode alterar o estado de movimento de um deles. É uma grandeza **vetorial** (tem magnitude, direção e sentido).
 
-**As trÃªs Leis de Newton** descrevem como forÃ§as produzem aceleraÃ§Ãµes:
+**As três Leis de Newton** descrevem como forças produzem acelerações:
 
 | Lei | Enunciado resumido |
 | --- | ------------------ |
-| 1Âª Lei (inÃ©rcia) | Sem forÃ§a resultante â†’ sem aceleraÃ§Ã£o |
-| 2Âª Lei | $\vec{F}_{\text{res}} = m\vec{a}$ |
-| 3Âª Lei (aÃ§Ã£o e reaÃ§Ã£o) | ForÃ§as surgem sempre aos pares, iguais e opostas |
+| 1ª Lei (inércia) | Sem força resultante → sem aceleração |
+| 2ª Lei | $\vec{F}_{\text{res}} = m\vec{a}$ |
+| 3ª Lei (ação e reação) | Forças surgem sempre aos pares, iguais e opostas |
 
 ---
 
 ## Teoria & Fundamentos
 
-### 4.1 ForÃ§a e interaÃ§Ãµes
+### 4.1 Força e interações
 
-ForÃ§as sempre envolvem **dois objetos** interagindo. Podem ser:
+Forças sempre envolvem **dois objetos** interagindo. Podem ser:
 
-- **De contato:** normal, atrito, traÃ§Ã£o, mola
-- **Ã€ distÃ¢ncia (de campo):** gravitacional, elÃ©trica, magnÃ©tica
+- **De contato:** normal, atrito, tração, mola
+- **À distância (de campo):** gravitacional, elétrica, magnética
 
-O **diagrama do corpo livre (DCL)** representa apenas as forÃ§as que **agem sobre** o objeto de interesse, nÃ£o as que ele exerce sobre outros.
+O **diagrama do corpo livre (DCL)** representa apenas as forças que **agem sobre** o objeto de interesse, não as que ele exerce sobre outros.
 
 ```
 DCL de uma caixa empurrada horizontalmente:
 
          N (normal)
-         â†‘
-  f_at â†â—â†’ F_aplicada
-         â†“
+         ↑
+  f_at ←●→ F_aplicada
+         ↓
          P (peso)
 
 N: normal do piso sobre a caixa
 P: peso (gravidade sobre a caixa)
-F: forÃ§a aplicada
+F: força aplicada
 f_at: atrito do piso sobre a caixa
 ```
 
-### 4.2 Primeira Lei de Newton (Lei da InÃ©rcia)
+### 4.2 Primeira Lei de Newton (Lei da Inércia)
 
-> *"Um corpo em repouso permanece em repouso, e um corpo em movimento retilÃ­neo uniforme continua em movimento retilÃ­neo uniforme, a menos que uma forÃ§a resultante nÃ£o nula atue sobre ele."*
+> *"Um corpo em repouso permanece em repouso, e um corpo em movimento retilíneo uniforme continua em movimento retilíneo uniforme, a menos que uma força resultante não nula atue sobre ele."*
 
 $$\vec{F}_{\text{res}} = \vec{0} \implies \vec{a} = \vec{0}$$
 
-**InÃ©rcia** Ã© a tendÃªncia de um corpo a resistir Ã  mudanÃ§a de seu estado de movimento. A **massa** Ã© a medida quantitativa da inÃ©rcia.
+**Inércia** é a tendência de um corpo a resistir à mudança de seu estado de movimento. A **massa** é a medida quantitativa da inércia.
 
-**Referencial inercial:** aquele em que a 1Âª Lei Ã© vÃ¡lida. Referenciais em aceleraÃ§Ã£o (nÃ£o inerciais) exigem forÃ§as fictÃ­cias â€” nÃ£o sÃ£o tratados aqui.
+**Referencial inercial:** aquele em que a 1ª Lei é válida. Referenciais em aceleração (não inerciais) exigem forças fictícias — não são tratados aqui.
 
 ### 4.3 Segunda Lei de Newton
 
-> *"A aceleraÃ§Ã£o de um objeto Ã© diretamente proporcional Ã  forÃ§a resultante sobre ele e inversamente proporcional Ã  sua massa."*
+> *"A aceleração de um objeto é diretamente proporcional à força resultante sobre ele e inversamente proporcional à sua massa."*
 
 $$\vec{F}_{\text{res}} = m\vec{a}$$
 
@@ -76,95 +76,95 @@ Em componentes:
 
 $$\sum F_x = ma_x \qquad \sum F_y = ma_y \qquad \sum F_z = ma_z$$
 
-**Unidade de forÃ§a:** Newton (N)
+**Unidade de força:** Newton (N)
 
 $$1\ \text{N} = 1\ \text{kg} \cdot \text{m/s}^2$$
 
-> A 2Âª Lei relaciona a **soma vetorial** de todas as forÃ§as sobre o objeto Ã  aceleraÃ§Ã£o resultante. Uma forÃ§a isolada sÃ³ produz a aceleraÃ§Ã£o descrita se for a **Ãºnica** forÃ§a, ou a **resultante** de todas as forÃ§as.
+> A 2ª Lei relaciona a **soma vetorial** de todas as forças sobre o objeto à aceleração resultante. Uma força isolada só produz a aceleração descrita se for a **única** força, ou a **resultante** de todas as forças.
 
 ### 4.4 Massa e peso
 
-**Massa** ($m$): medida de inÃ©rcia â€” propriedade intrÃ­nseca do objeto. Escalar, em kg.
+**Massa** ($m$): medida de inércia — propriedade intrínseca do objeto. Escalar, em kg.
 
-**Peso** ($\vec{P}$): forÃ§a gravitacional sobre o objeto. Vetor.
+**Peso** ($\vec{P}$): força gravitacional sobre o objeto. Vetor.
 
 $$\vec{P} = m\vec{g} \qquad P = mg$$
 
-Com $g = 9{,}80\ \text{m/s}^2$ na superfÃ­cie terrestre.
+Com $g = 9{,}80\ \text{m/s}^2$ na superfície terrestre.
 
-> Massa e peso sÃ£o grandezas distintas. Em Ã³rbita, um astronauta tem **massa** (e portanto inÃ©rcia), mas Ã© **sem peso** (forÃ§a gravitacional equilibrada pela queda livre orbital).
+> Massa e peso são grandezas distintas. Em órbita, um astronauta tem **massa** (e portanto inércia), mas é **sem peso** (força gravitacional equilibrada pela queda livre orbital).
 
 ```
 Massa vs. Peso:
 
-  Terra:     m = 70 kg  â†’  P = 686 N
-  Lua:       m = 70 kg  â†’  P = 114 N  (g_lua â‰ˆ 1,62 m/sÂ²)
-  Ã“rbita:    m = 70 kg  â†’  P â‰ˆ 0 N   (imponderabilidade)
+  Terra:     m = 70 kg  →  P = 686 N
+  Lua:       m = 70 kg  →  P = 114 N  (g_lua ≈ 1,62 m/s²)
+  Órbita:    m = 70 kg  →  P ≈ 0 N   (imponderabilidade)
 
   A massa nunca muda; o peso depende de g local.
 ```
 
-### 4.5 Terceira Lei de Newton (AÃ§Ã£o e ReaÃ§Ã£o)
+### 4.5 Terceira Lei de Newton (Ação e Reação)
 
-> *"Se o objeto A exerce uma forÃ§a sobre o objeto B, entÃ£o B exerce sobre A uma forÃ§a de mesma magnitude, mesma direÃ§Ã£o e sentido oposto."*
+> *"Se o objeto A exerce uma força sobre o objeto B, então B exerce sobre A uma força de mesma magnitude, mesma direção e sentido oposto."*
 
 $$\vec{F}_{A \to B} = -\vec{F}_{B \to A}$$
 
-**Ponto crÃ­tico:** o par aÃ§Ã£o-reaÃ§Ã£o age sobre **objetos diferentes** â€” nunca se cancelam no DCL de um Ãºnico objeto.
+**Ponto crítico:** o par ação-reação age sobre **objetos diferentes** — nunca se cancelam no DCL de um único objeto.
 
 ```
-Exemplo â€” livro sobre a mesa:
+Exemplo — livro sobre a mesa:
 
-  Livro â†’ exerce peso Pâ†“ sobre a mesa
-  Mesa  â†’ exerce normal Nâ†‘ sobre o livro   (par aÃ§Ã£o-reaÃ§Ã£o com P)
+  Livro → exerce peso P↓ sobre a mesa
+  Mesa  → exerce normal N↑ sobre o livro   (par ação-reação com P)
 
-  No DCL do livro:  Nâ†‘ e Pâ†“  â†’ se N = P, livro em equilÃ­brio
-  Mas N e P NÃƒO sÃ£o par aÃ§Ã£o-reaÃ§Ã£o entre si
-  (agem sobre o mesmo objeto â€” o livro)
+  No DCL do livro:  N↑ e P↓  → se N = P, livro em equilíbrio
+  Mas N e P NÃO são par ação-reação entre si
+  (agem sobre o mesmo objeto — o livro)
 ```
 
 ### 4.6 Exemplos de diagramas do corpo livre
 
-**MÃ©todo sistemÃ¡tico:**
+**Método sistemático:**
 
 1. Identificar o objeto de interesse
-2. Listar todas as forÃ§as que **agem sobre** ele (excluir forÃ§as que ele exerce)
-3. Escolher sistema de coordenadas conveniente (geralmente $x$ na direÃ§Ã£o do movimento)
+2. Listar todas as forças que **agem sobre** ele (excluir forças que ele exerce)
+3. Escolher sistema de coordenadas conveniente (geralmente $x$ na direção do movimento)
 4. Escrever $\sum F_x = ma_x$ e $\sum F_y = ma_y$
-5. Resolver o sistema de equaÃ§Ãµes
+5. Resolver o sistema de equações
 
-**ForÃ§as comuns:**
+**Forças comuns:**
 
-| ForÃ§a | SÃ­mbolo | DescriÃ§Ã£o |
+| Força | Símbolo | Descrição |
 | ----- | ------- | --------- |
 | Peso | $\vec{P} = m\vec{g}$ | Para baixo, sempre |
-| Normal | $\vec{N}$ | Perpendicular Ã  superfÃ­cie de contato |
-| TraÃ§Ã£o | $\vec{T}$ | Ao longo do fio/cabo, afastando do objeto |
-| Atrito | $\vec{f}$ | Paralelo Ã  superfÃ­cie, oposto ao movimento |
+| Normal | $\vec{N}$ | Perpendicular à superfície de contato |
+| Tração | $\vec{T}$ | Ao longo do fio/cabo, afastando do objeto |
+| Atrito | $\vec{f}$ | Paralelo à superfície, oposto ao movimento |
 | Mola (Hooke) | $\vec{F} = -k\vec{x}$ | Proporcional ao estiramento |
 
 ---
 
-## FÃ³rmulas & EquaÃ§Ãµes
+## Fórmulas & Equações
 
-| FÃ³rmula | DescriÃ§Ã£o | Unidade |
+| Fórmula | Descrição | Unidade |
 | ------- | --------- | ------- |
-| $\vec{F}_{\text{res}} = m\vec{a}$ | 2Âª Lei de Newton | N |
-| $\sum F_x = ma_x$ | Componente $x$ da 2Âª Lei | N |
-| $\sum F_y = ma_y$ | Componente $y$ da 2Âª Lei | N |
+| $\vec{F}_{\text{res}} = m\vec{a}$ | 2ª Lei de Newton | N |
+| $\sum F_x = ma_x$ | Componente $x$ da 2ª Lei | N |
+| $\sum F_y = ma_y$ | Componente $y$ da 2ª Lei | N |
 | $P = mg$ | Magnitude do peso | N |
-| $1\ \text{N} = 1\ \text{kgÂ·m/s}^2$ | DefiniÃ§Ã£o do Newton | â€” |
-| $\vec{F}_{AB} = -\vec{F}_{BA}$ | 3Âª Lei (aÃ§Ã£o-reaÃ§Ã£o) | N |
+| $1\ \text{N} = 1\ \text{kg·m/s}^2$ | Definição do Newton | — |
+| $\vec{F}_{AB} = -\vec{F}_{BA}$ | 3ª Lei (ação-reação) | N |
 
 ---
 
 ## Exemplos Resolvidos
 
-**Exemplo 1 â€” 2Âª Lei: forÃ§a resultante (bÃ¡sico)**
+**Exemplo 1 — 2ª Lei: força resultante (básico)**
 
-Uma caixa de $m = 5{,}00\ \text{kg}$ estÃ¡ sobre uma superfÃ­cie sem atrito. Duas forÃ§as horizontais agem sobre ela: $F_1 = 12{,}0\ \text{N}$ para a direita e $F_2 = 7{,}00\ \text{N}$ para a esquerda. Qual a aceleraÃ§Ã£o?
+Uma caixa de $m = 5{,}00\ \text{kg}$ está sobre uma superfície sem atrito. Duas forças horizontais agem sobre ela: $F_1 = 12{,}0\ \text{N}$ para a direita e $F_2 = 7{,}00\ \text{N}$ para a esquerda. Qual a aceleração?
 
-**ResoluÃ§Ã£o:**
+**Resolução:**
 
 $$\sum F_x = F_1 - F_2 = 12{,}0 - 7{,}00 = 5{,}00\ \text{N}$$
 
@@ -174,34 +174,34 @@ $$\boxed{a = 1{,}00\ \text{m/s}^2\ \text{para a direita}}$$
 
 ---
 
-**Exemplo 2 â€” DCL em 2D: bloco em plano inclinado sem atrito (intermediÃ¡rio)**
+**Exemplo 2 — DCL em 2D: bloco em plano inclinado sem atrito (intermediário)**
 
-Um bloco de $m = 8{,}00\ \text{kg}$ repousa sobre um plano inclinado sem atrito de $\theta = 30{,}0Â°$. Encontre a aceleraÃ§Ã£o do bloco e a forÃ§a normal.
+Um bloco de $m = 8{,}00\ \text{kg}$ repousa sobre um plano inclinado sem atrito de $\theta = 30{,}0°$. Encontre a aceleração do bloco e a força normal.
 
 **DCL e sistema de coordenadas:**
 
 ```
         N (perpendicular ao plano)
-        â†‘â†—
-   â”€â”€â”€â”€â—â”€â”€â”€â”€â”€â”€
-      /|\ Î¸
+        ↑↗
+   ────●──────
+      /|\ θ
      / | \
-    /  â†“  \
+    /  ↓  \
    /  mg    \
-  /Î¸          \
- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  /θ          \
+ ──────────────
 ```
 
 Eixo $x$: paralelo ao plano (positivo morro abaixo)  
 Eixo $y$: perpendicular ao plano (positivo afastando do plano)
 
-**ResoluÃ§Ã£o:**
+**Resolução:**
 
 Componentes do peso:
-$$P_x = mg\operatorname{sen}\theta = 8{,}00 \times 9{,}80 \times \operatorname{sen}(30Â°) = 78{,}4 \times 0{,}500 = 39{,}2\ \text{N}$$
-$$P_y = mg\cos\theta = 78{,}4 \times \cos(30Â°) = 78{,}4 \times 0{,}866 = 67{,}9\ \text{N}$$
+$$P_x = mg\operatorname{sen}\theta = 8{,}00 \times 9{,}80 \times \operatorname{sen}(30°) = 78{,}4 \times 0{,}500 = 39{,}2\ \text{N}$$
+$$P_y = mg\cos\theta = 78{,}4 \times \cos(30°) = 78{,}4 \times 0{,}866 = 67{,}9\ \text{N}$$
 
-Eixo $y$ (sem aceleraÃ§Ã£o perpendicular):
+Eixo $y$ (sem aceleração perpendicular):
 $$\sum F_y = N - P_y = 0 \implies N = 67{,}9\ \text{N}$$
 
 Eixo $x$:
@@ -211,20 +211,20 @@ $$\boxed{a = 4{,}90\ \text{m/s}^2\ \text{(morro abaixo)};\quad N = 67{,}9\ \text
 
 ---
 
-**Exemplo 3 â€” Sistema de dois blocos com polia (avanÃ§ado)**
+**Exemplo 3 — Sistema de dois blocos com polia (avançado)**
 
-Dois blocos estÃ£o conectados por um fio ideal (massa e atrito desprezÃ­veis) passando por uma polia ideal: bloco $A$ ($m_A = 4{,}00\ \text{kg}$) sobre uma mesa horizontal sem atrito; bloco $B$ ($m_B = 3{,}00\ \text{kg}$) pendurado verticalmente. Encontre a aceleraÃ§Ã£o do sistema e a tensÃ£o no fio.
+Dois blocos estão conectados por um fio ideal (massa e atrito desprezíveis) passando por uma polia ideal: bloco $A$ ($m_A = 4{,}00\ \text{kg}$) sobre uma mesa horizontal sem atrito; bloco $B$ ($m_B = 3{,}00\ \text{kg}$) pendurado verticalmente. Encontre a aceleração do sistema e a tensão no fio.
 
 **DCL do sistema:**
 
 ```
-  [A] â†’T          Tâ†‘
+  [A] →T          T↑
   mesa (sem atrito)   |
                       [B]
-                      â†“ m_BÂ·g
+                      ↓ m_B·g
 ```
 
-**ResoluÃ§Ã£o:**
+**Resolução:**
 
 Para o bloco $A$ (movimento horizontal):
 $$T = m_A\,a \quad \text{...(i)}$$
@@ -245,24 +245,24 @@ $$\boxed{a = 4{,}20\ \text{m/s}^2;\quad T = 16{,}8\ \text{N}}$$
 
 ## Armadilhas & Edge Cases
 
-- **Par aÃ§Ã£o-reaÃ§Ã£o â‰  equilÃ­brio:** $N$ (mesa sobre o livro) e $P$ (peso do livro) sÃ£o iguais e opostos num livro em repouso, mas **nÃ£o sÃ£o par aÃ§Ã£o-reaÃ§Ã£o** â€” agem sobre o mesmo corpo. O par de $N$ Ã© a forÃ§a do livro sobre a mesa; o par de $P$ Ã© a forÃ§a do livro sobre a Terra.
-- **Fio ideal:** tensÃ£o igual em todos os pontos apenas quando o fio Ã© inextensÃ­vel e de massa desprezÃ­vel. Se a polia tem massa, o problema muda (ver Cap 10 â€” Torque).
-- **SuperfÃ­cie sem atrito â‰  sem normal:** a normal existe sempre que hÃ¡ contato â€” o atrito que pode ser zero.
-- **Componentes do peso no plano inclinado:** $P_\parallel = mg\operatorname{sen}\theta$ (ao longo do plano) e $P_\perp = mg\cos\theta$ (perpendicular ao plano). Confundir $\operatorname{sen}$ e $\cos$ Ã© o erro mais comum.
-- **Massa em kg, forÃ§a em N:** nunca substitua peso (N) diretamente no lugar de massa (kg) na 2Âª Lei.
+- **Par ação-reação ≠ equilíbrio:** $N$ (mesa sobre o livro) e $P$ (peso do livro) são iguais e opostos num livro em repouso, mas **não são par ação-reação** — agem sobre o mesmo corpo. O par de $N$ é a força do livro sobre a mesa; o par de $P$ é a força do livro sobre a Terra.
+- **Fio ideal:** tensão igual em todos os pontos apenas quando o fio é inextensível e de massa desprezível. Se a polia tem massa, o problema muda (ver Cap 10 — Torque).
+- **Superfície sem atrito ≠ sem normal:** a normal existe sempre que há contato — o atrito que pode ser zero.
+- **Componentes do peso no plano inclinado:** $P_\parallel = mg\operatorname{sen}\theta$ (ao longo do plano) e $P_\perp = mg\cos\theta$ (perpendicular ao plano). Confundir $\operatorname{sen}$ e $\cos$ é o erro mais comum.
+- **Massa em kg, força em N:** nunca substitua peso (N) diretamente no lugar de massa (kg) na 2ª Lei.
 
 ---
 
-## ConexÃµes
+## Conexões
 
-- [[Cap 3 â€” Movimento em duas ou trÃªs dimensÃµes]] â† cinemÃ¡tica que fornece $\vec{a}$
-- [[Cap 5 â€” AplicaÃ§Ãµes das Leis de Newton]] â†’ atrito, dinÃ¢mica circular, casos complexos
-- [[Cap 6 â€” Trabalho e energia cinÃ©tica]] â†’ energia como alternativa Ã  2Âª Lei
-- [[FÃ­sica I]] â† MOC da disciplina
-- [[FÃ­sica]] â† MOC de Ã¡rea
+- [[Cap 3 — Movimento em duas ou três dimensões]] ← cinemática que fornece $\vec{a}$
+- [[Cap 5 — Aplicações das Leis de Newton]] → atrito, dinâmica circular, casos complexos
+- [[Cap 6 — Trabalho e energia cinética]] → energia como alternativa à 2ª Lei
+- [[Física I]] ← MOC da disciplina
+- [[Física]] ← MOC de área
 
 ---
 
 ## Fontes
 
-- YOUNG, Hugh D.; FREEDMAN, Roger A. **FÃ­sica I: MecÃ¢nica**. 12. ed. SÃ£o Paulo: Pearson Addison Wesley, 2008. Cap. 4, p. 106â€“132.
+- YOUNG, Hugh D.; FREEDMAN, Roger A. **Física I: Mecânica**. 12. ed. São Paulo: Pearson Addison Wesley, 2008. Cap. 4, p. 106–132.
