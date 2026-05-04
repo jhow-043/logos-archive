@@ -13,7 +13,7 @@ cssclasses:
 </div>
 
 <div class="stats-bar">
-  <div class="stat"><span class="stat-num">46</span><span class="stat-label">notas</span></div>
+  <div class="stat"><span class="stat-num">41</span><span class="stat-label">notas</span></div>
   <div class="stat"><span class="stat-num">5</span><span class="stat-label">disciplinas</span></div>
   <div class="stat"><span class="stat-num">1</span><span class="stat-label">semestre</span></div>
 </div>
