@@ -1,8 +1,8 @@
 ---
-title: Conjuntos Numéricos
+title: Conjuntos NumÃ©ricos
 description: Hierarquia $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset
-  \mathbb{R}$, propriedades dos números reais, intervalos e módulo — base de todo
-  o cálculo.
+  \mathbb{R}$, propriedades dos nÃºmeros reais, intervalos e mÃ³dulo â€” base de todo
+  o cÃ¡lc…
 tags:
 - quimica
 date: 2026-04-24
@@ -10,18 +10,17 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
+# Conjuntos NumÃ©ricos
 
-# Conjuntos Numéricos
-
-> Hierarquia $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, propriedades dos números reais, intervalos e módulo — base de todo o cálculo.
+> Hierarquia $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, propriedades dos nÃºmeros reais, intervalos e mÃ³dulo â€” base de todo o cÃ¡lculo.
 
 ---
 
-## Definição
+## DefiniÃ§Ã£o
 
-Os **conjuntos numéricos** formam uma hierarquia de extensões sucessivas, em que cada novo conjunto é construído para resolver uma limitação do anterior — tipicamente, o **fechamento** (ou não) sob uma operação. Por exemplo, $\mathbb{N}$ não é fechado sob subtração ($3 - 5 \notin \mathbb{N}$), o que motiva a criação de $\mathbb{Z}$; $\mathbb{Z}$ não é fechado sob divisão, motivando $\mathbb{Q}$; e $\mathbb{Q}$ tem "buracos" na reta (como $\sqrt{2}$), motivando $\mathbb{R}$.
+Os **conjuntos numÃ©ricos** formam uma hierarquia de extensÃµes sucessivas, em que cada novo conjunto Ã© construÃ­do para resolver uma limitaÃ§Ã£o do anterior â€” tipicamente, o **fechamento** (ou nÃ£o) sob uma operaÃ§Ã£o. Por exemplo, $\mathbb{N}$ nÃ£o Ã© fechado sob subtraÃ§Ã£o ($3 - 5 \notin \mathbb{N}$), o que motiva a criaÃ§Ã£o de $\mathbb{Z}$; $\mathbb{Z}$ nÃ£o Ã© fechado sob divisÃ£o, motivando $\mathbb{Q}$; e $\mathbb{Q}$ tem "buracos" na reta (como $\sqrt{2}$), motivando $\mathbb{R}$.
 
-Essa cadeia é a base sobre a qual se constroem domínios e imagens de funções, sequências, limites e toda a análise real.
+Essa cadeia Ã© a base sobre a qual se constroem domÃ­nios e imagens de funÃ§Ãµes, sequÃªncias, limites e toda a anÃ¡lise real.
 
 ## Teoria & Fundamentos
 
@@ -29,21 +28,21 @@ Essa cadeia é a base sobre a qual se constroem domínios e imagens de funções
 
 $$\mathbb{N} = \{0, 1, 2, 3, 4, \ldots\}$$
 
-> **Convenção:** na tradição brasileira (e no Iezzi/Guidorizzi), o $0$ é incluído em $\mathbb{N}$. $\mathbb{N}^* = \mathbb{N} \setminus \{0\} = \{1, 2, 3, \ldots\}$ exclui o zero.
+> **ConvenÃ§Ã£o:** na tradiÃ§Ã£o brasileira (e no Iezzi/Guidorizzi), o $0$ Ã© incluÃ­do em $\mathbb{N}$. $\mathbb{N}^* = \mathbb{N} \setminus \{0\} = \{1, 2, 3, \ldots\}$ exclui o zero.
 
-Fechado sob soma e multiplicação; **não** fechado sob subtração nem divisão.
+Fechado sob soma e multiplicaÃ§Ã£o; **nÃ£o** fechado sob subtraÃ§Ã£o nem divisÃ£o.
 
 ### Inteiros ($\mathbb{Z}$)
 
 $$\mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}$$
 
-Estende $\mathbb{N}$ para fechar a subtração. Subconjuntos úteis:
+Estende $\mathbb{N}$ para fechar a subtraÃ§Ã£o. Subconjuntos Ãºteis:
 
-| Notação | Significado |
+| NotaÃ§Ã£o | Significado |
 | ------- | ----------- |
 | $\mathbb{Z}^*$ | $\mathbb{Z} \setminus \{0\}$ |
-| $\mathbb{Z}_+$ | inteiros não-negativos $= \mathbb{N}$ |
-| $\mathbb{Z}_-$ | inteiros não-positivos |
+| $\mathbb{Z}_+$ | inteiros nÃ£o-negativos $= \mathbb{N}$ |
+| $\mathbb{Z}_-$ | inteiros nÃ£o-positivos |
 | $\mathbb{Z}_+^*$ | inteiros estritamente positivos |
 | $\mathbb{Z}_-^*$ | inteiros estritamente negativos |
 
@@ -51,45 +50,45 @@ Estende $\mathbb{N}$ para fechar a subtração. Subconjuntos úteis:
 
 $$\mathbb{Q} = \left\{\frac{a}{b} \;\middle|\; a \in \mathbb{Z},\; b \in \mathbb{Z}^*\right\}$$
 
-Estende $\mathbb{Z}$ para fechar a divisão (por elementos não-nulos).
+Estende $\mathbb{Z}$ para fechar a divisÃ£o (por elementos nÃ£o-nulos).
 
-**Caracterização decimal:** um número é racional se, e somente se, sua representação decimal é **finita** ou uma **dízima periódica**.
+**CaracterizaÃ§Ã£o decimal:** um nÃºmero Ã© racional se, e somente se, sua representaÃ§Ã£o decimal Ã© **finita** ou uma **dÃ­zima periÃ³dica**.
 
-| Tipo | Exemplo | Forma fracionária |
+| Tipo | Exemplo | Forma fracionÃ¡ria |
 | ---- | ------- | ----------------- |
 | Decimal finita | $0{,}25$ | $\dfrac{1}{4}$ |
-| Dízima periódica simples | $0{,}\overline{3}$ | $\dfrac{1}{3}$ |
-| Dízima periódica composta | $0{,}1\overline{6}$ | $\dfrac{1}{6}$ |
+| DÃ­zima periÃ³dica simples | $0{,}\overline{3}$ | $\dfrac{1}{3}$ |
+| DÃ­zima periÃ³dica composta | $0{,}1\overline{6}$ | $\dfrac{1}{6}$ |
 
 ### Irracionais ($\mathbb{I}$)
 
-Números cuja representação decimal é **infinita e não-periódica**. Não podem ser escritos como $\dfrac{a}{b}$ com $a, b \in \mathbb{Z}$.
+NÃºmeros cuja representaÃ§Ã£o decimal Ã© **infinita e nÃ£o-periÃ³dica**. NÃ£o podem ser escritos como $\dfrac{a}{b}$ com $a, b \in \mathbb{Z}$.
 
-Exemplos clássicos: $\sqrt{2}, \sqrt{3}, \sqrt{5}, \pi, e$.
+Exemplos clÃ¡ssicos: $\sqrt{2}, \sqrt{3}, \sqrt{5}, \pi, e$.
 
-> [!info]- Esboço: por que $\sqrt{2}$ é irracional (redução ao absurdo)
-> Suponha, por absurdo, que $\sqrt{2} = \dfrac{a}{b}$ com $a, b \in \mathbb{Z}$, $b \neq 0$, e a fração **irredutível** ($\operatorname{mdc}(a,b) = 1$).
-> Elevando ao quadrado: $2 = \dfrac{a^2}{b^2} \implies a^2 = 2b^2$. Logo $a^2$ é par, então $a$ é par; escreve-se $a = 2k$.
-> Substituindo: $(2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2$. Logo $b$ também é par.
-> Mas se $a$ e $b$ são ambos pares, $\operatorname{mdc}(a,b) \geq 2$, contradizendo a hipótese de fração irredutível. ∎
+> [!info]- EsboÃ§o: por que $\sqrt{2}$ Ã© irracional (reduÃ§Ã£o ao absurdo)
+> Suponha, por absurdo, que $\sqrt{2} = \dfrac{a}{b}$ com $a, b \in \mathbb{Z}$, $b \neq 0$, e a fraÃ§Ã£o **irredutÃ­vel** ($\operatorname{mdc}(a,b) = 1$).
+> Elevando ao quadrado: $2 = \dfrac{a^2}{b^2} \implies a^2 = 2b^2$. Logo $a^2$ Ã© par, entÃ£o $a$ Ã© par; escreve-se $a = 2k$.
+> Substituindo: $(2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2$. Logo $b$ tambÃ©m Ã© par.
+> Mas se $a$ e $b$ sÃ£o ambos pares, $\operatorname{mdc}(a,b) \geq 2$, contradizendo a hipÃ³tese de fraÃ§Ã£o irredutÃ­vel. âˆŽ
 
 ### Reais ($\mathbb{R}$)
 
 $$\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$$
 
-Existe uma **correspondência biunívoca** entre $\mathbb{R}$ e os pontos da reta orientada (reta real) — cada real corresponde a um único ponto, e vice-versa. Essa é a base geométrica de todo o cálculo.
+Existe uma **correspondÃªncia biunÃ­voca** entre $\mathbb{R}$ e os pontos da reta orientada (reta real) â€” cada real corresponde a um Ãºnico ponto, e vice-versa. Essa Ã© a base geomÃ©trica de todo o cÃ¡lculo.
 
-### Cadeia de inclusões
+### Cadeia de inclusÃµes
 
 $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 
-> Note que $\mathbb{I}$ **não está** nessa cadeia: $\mathbb{I}$ é disjunto de $\mathbb{Q}$ e $\mathbb{I} \subset \mathbb{R}$.
+> Note que $\mathbb{I}$ **nÃ£o estÃ¡** nessa cadeia: $\mathbb{I}$ Ã© disjunto de $\mathbb{Q}$ e $\mathbb{I} \subset \mathbb{R}$.
 
-### Propriedades algébricas dos reais
+### Propriedades algÃ©bricas dos reais
 
 Para todos $a, b, c \in \mathbb{R}$:
 
-| Propriedade | Soma | Multiplicação |
+| Propriedade | Soma | MultiplicaÃ§Ã£o |
 | ----------- | ---- | ------------- |
 | Fechamento | $a + b \in \mathbb{R}$ | $a \cdot b \in \mathbb{R}$ |
 | Comutativa | $a + b = b + a$ | $a \cdot b = b \cdot a$ |
@@ -102,56 +101,56 @@ Para todos $a, b, c \in \mathbb{R}$:
 
 Para todos $a, b, c \in \mathbb{R}$:
 
-- **Tricotomia:** vale exatamente uma das três relações: $a < b$, $a = b$ ou $a > b$
-- **Transitividade:** se $a < b$ e $b < c$, então $a < c$
-- **Compatibilidade com soma:** se $a < b$, então $a + c < b + c$
+- **Tricotomia:** vale exatamente uma das trÃªs relaÃ§Ãµes: $a < b$, $a = b$ ou $a > b$
+- **Transitividade:** se $a < b$ e $b < c$, entÃ£o $a < c$
+- **Compatibilidade com soma:** se $a < b$, entÃ£o $a + c < b + c$
 - **Compatibilidade com produto:**
-    - se $a < b$ e $c > 0$, então $a \cdot c < b \cdot c$
-    - se $a < b$ e $c < 0$, então $a \cdot c > b \cdot c$ (desigualdade **inverte**)
+    - se $a < b$ e $c > 0$, entÃ£o $a \cdot c < b \cdot c$
+    - se $a < b$ e $c < 0$, entÃ£o $a \cdot c > b \cdot c$ (desigualdade **inverte**)
 
 ### Intervalos reais
 
 Subconjuntos especiais de $\mathbb{R}$ definidos por desigualdades. Sejam $a, b \in \mathbb{R}$ com $a < b$:
 
-| Tipo | Notação | Desigualdade | Reta |
+| Tipo | NotaÃ§Ã£o | Desigualdade | Reta |
 | ---- | ------- | ------------ | ---- |
 | Fechado | $[a, b]$ | $a \leq x \leq b$ | $\bullet\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\bullet$ |
 | Aberto | $(a, b)$ | $a < x < b$ | $\circ\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\circ$ |
-| Semiaberto à direita | $[a, b)$ | $a \leq x < b$ | $\bullet\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\circ$ |
-| Semiaberto à esquerda | $(a, b]$ | $a < x \leq b$ | $\circ\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\bullet$ |
-| Infinito à direita | $[a, +\infty)$ | $x \geq a$ | $\bullet\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\to$ |
-| Infinito à direita (aberto) | $(a, +\infty)$ | $x > a$ | $\circ\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\to$ |
-| Infinito à esquerda | $(-\infty, b]$ | $x \leq b$ | $\leftarrow\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\bullet$ |
-| Infinito à esquerda (aberto) | $(-\infty, b)$ | $x < b$ | $\leftarrow\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\circ$ |
+| Semiaberto Ã  direita | $[a, b)$ | $a \leq x < b$ | $\bullet\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\circ$ |
+| Semiaberto Ã  esquerda | $(a, b]$ | $a < x \leq b$ | $\circ\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\bullet$ |
+| Infinito Ã  direita | $[a, +\infty)$ | $x \geq a$ | $\bullet\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\to$ |
+| Infinito Ã  direita (aberto) | $(a, +\infty)$ | $x > a$ | $\circ\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\to$ |
+| Infinito Ã  esquerda | $(-\infty, b]$ | $x \leq b$ | $\leftarrow\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\bullet$ |
+| Infinito Ã  esquerda (aberto) | $(-\infty, b)$ | $x < b$ | $\leftarrow\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\!\circ$ |
 | Toda a reta | $(-\infty, +\infty)$ | $x \in \mathbb{R}$ | $\leftarrow\!\!\rule[0.5ex]{1.5em}{0.4pt}\!\to$ |
 
-> **Importante:** $\infty$ **nunca** é incluído em intervalo (nunca há colchete em $\infty$); $\infty$ é símbolo de "sem limite", não um número real.
+> **Importante:** $\infty$ **nunca** Ã© incluÃ­do em intervalo (nunca hÃ¡ colchete em $\infty$); $\infty$ Ã© sÃ­mbolo de "sem limite", nÃ£o um nÃºmero real.
 
-### Valor absoluto (módulo)
+### Valor absoluto (mÃ³dulo)
 
 $$|x| = \begin{cases} x, & \text{se } x \geq 0 \\ -x, & \text{se } x < 0 \end{cases}$$
 
-**Interpretação geométrica:** $|x|$ é a **distância** de $x$ até a origem na reta real. Generalizando, $|x - a|$ é a distância entre $x$ e $a$.
+**InterpretaÃ§Ã£o geomÃ©trica:** $|x|$ Ã© a **distÃ¢ncia** de $x$ atÃ© a origem na reta real. Generalizando, $|x - a|$ Ã© a distÃ¢ncia entre $x$ e $a$.
 
 **Propriedades** (para todo $x, y \in \mathbb{R}$):
 
-| Propriedade | Fórmula |
+| Propriedade | FÃ³rmula |
 | ----------- | ------- |
-| Não-negatividade | $\|x\| \geq 0$, e $\|x\| = 0 \iff x = 0$ |
+| NÃ£o-negatividade | $\|x\| \geq 0$, e $\|x\| = 0 \iff x = 0$ |
 | Simetria | $\|-x\| = \|x\|$ |
 | Multiplicativa | $\|x \cdot y\| = \|x\| \cdot \|y\|$ |
 | Quociente | $\left\|\dfrac{x}{y}\right\| = \dfrac{\|x\|}{\|y\|}$, $y \neq 0$ |
 | Desigualdade triangular | $\|x + y\| \leq \|x\| + \|y\|$ |
 | Raiz quadrada | $\sqrt{x^2} = \|x\|$ |
-| Equação modular | $\|x\| = a \;(a \geq 0) \iff x = a$ ou $x = -a$ |
-| Inequação modular | $\|x\| \leq a \;(a > 0) \iff -a \leq x \leq a$ |
-| Inequação modular | $\|x\| \geq a \;(a > 0) \iff x \leq -a$ ou $x \geq a$ |
+| EquaÃ§Ã£o modular | $\|x\| = a \;(a \geq 0) \iff x = a$ ou $x = -a$ |
+| InequaÃ§Ã£o modular | $\|x\| \leq a \;(a > 0) \iff -a \leq x \leq a$ |
+| InequaÃ§Ã£o modular | $\|x\| \geq a \;(a > 0) \iff x \leq -a$ ou $x \geq a$ |
 
-## Fórmulas & Equações
+## FÃ³rmulas & EquaÃ§Ãµes
 
-### Notação dos conjuntos
+### NotaÃ§Ã£o dos conjuntos
 
-| Símbolo | Significado |
+| SÃ­mbolo | Significado |
 | ------- | ----------- |
 | $\mathbb{N}$ | naturais $\{0, 1, 2, \ldots\}$ |
 | $\mathbb{N}^*$ | naturais sem zero |
@@ -163,63 +162,63 @@ $$|x| = \begin{cases} x, & \text{se } x \geq 0 \\ -x, & \text{se } x < 0 \end{ca
 | $\mathbb{R}$ | reais |
 | $\mathbb{R}^*, \mathbb{R}_+, \mathbb{R}_-, \mathbb{R}_+^*, \mathbb{R}_-^*$ | variantes de $\mathbb{R}$ |
 
-### Conversão dízima periódica → fração
+### ConversÃ£o dÃ­zima periÃ³dica â†’ fraÃ§Ã£o
 
-Para $0,\overline{a_1 a_2 \ldots a_n}$ (período de $n$ dígitos), a fração geratriz é:
+Para $0,\overline{a_1 a_2 \ldots a_n}$ (perÃ­odo de $n$ dÃ­gitos), a fraÃ§Ã£o geratriz Ã©:
 
-$$\frac{\text{período}}{\underbrace{99\ldots9}_{n \text{ noves}}}$$
+$$\frac{\text{perÃ­odo}}{\underbrace{99\ldots9}_{n \text{ noves}}}$$
 
 ## Exemplos Resolvidos
 
-**Exemplo 1 — Básico: classificar números nos conjuntos**
+**Exemplo 1 â€” BÃ¡sico: classificar nÃºmeros nos conjuntos**
 
-> **Enunciado:** Classifique cada número abaixo indicando a quais dos conjuntos $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{I}, \mathbb{R}$ ele pertence: $-3$, $0$, $\dfrac{2}{5}$, $\sqrt{2}$, $\pi$, $0{,}\overline{3}$, $\sqrt{4}$.
+> **Enunciado:** Classifique cada nÃºmero abaixo indicando a quais dos conjuntos $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{I}, \mathbb{R}$ ele pertence: $-3$, $0$, $\dfrac{2}{5}$, $\sqrt{2}$, $\pi$, $0{,}\overline{3}$, $\sqrt{4}$.
 
-**Passo 1 — Lembrar a hierarquia.**
+**Passo 1 â€” Lembrar a hierarquia.**
 
-Como $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ e $\mathbb{I} \subset \mathbb{R}$ (com $\mathbb{I} \cap \mathbb{Q} = \emptyset$), basta identificar o "menor" conjunto que contém o número — ele estará em todos os conjuntos acima desse na hierarquia.
+Como $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ e $\mathbb{I} \subset \mathbb{R}$ (com $\mathbb{I} \cap \mathbb{Q} = \emptyset$), basta identificar o "menor" conjunto que contÃ©m o nÃºmero â€” ele estarÃ¡ em todos os conjuntos acima desse na hierarquia.
 
-**Passo 2 — Analisar cada número individualmente.**
+**Passo 2 â€” Analisar cada nÃºmero individualmente.**
 
-- $-3$: inteiro negativo → $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$ (não é natural)
-- $0$: natural → $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$
-- $\dfrac{2}{5}$: fração não-inteira (decimal finito $0{,}4$) → $\mathbb{Q}, \mathbb{R}$
-- $\sqrt{2}$: irracional clássico (decimal infinita não-periódica) → $\mathbb{I}, \mathbb{R}$
-- $\pi$: irracional clássico → $\mathbb{I}, \mathbb{R}$
-- $0{,}\overline{3}$: dízima periódica → racional ($= \dfrac{1}{3}$) → $\mathbb{Q}, \mathbb{R}$
-- $\sqrt{4}$: **calcular antes de classificar!** $\sqrt{4} = 2$, que é natural → $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$
+- $-3$: inteiro negativo â†’ $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$ (nÃ£o Ã© natural)
+- $0$: natural â†’ $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$
+- $\dfrac{2}{5}$: fraÃ§Ã£o nÃ£o-inteira (decimal finito $0{,}4$) â†’ $\mathbb{Q}, \mathbb{R}$
+- $\sqrt{2}$: irracional clÃ¡ssico (decimal infinita nÃ£o-periÃ³dica) â†’ $\mathbb{I}, \mathbb{R}$
+- $\pi$: irracional clÃ¡ssico â†’ $\mathbb{I}, \mathbb{R}$
+- $0{,}\overline{3}$: dÃ­zima periÃ³dica â†’ racional ($= \dfrac{1}{3}$) â†’ $\mathbb{Q}, \mathbb{R}$
+- $\sqrt{4}$: **calcular antes de classificar!** $\sqrt{4} = 2$, que Ã© natural â†’ $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$
 
-**Passo 3 — Resumir em tabela.**
+**Passo 3 â€” Resumir em tabela.**
 
-| Número | $\mathbb{N}$ | $\mathbb{Z}$ | $\mathbb{Q}$ | $\mathbb{I}$ | $\mathbb{R}$ |
+| NÃºmero | $\mathbb{N}$ | $\mathbb{Z}$ | $\mathbb{Q}$ | $\mathbb{I}$ | $\mathbb{R}$ |
 | ------ | --- | --- | --- | --- | --- |
-| $-3$ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| $0$ | ✓ | ✓ | ✓ | ✗ | ✓ |
-| $\dfrac{2}{5}$ | ✗ | ✗ | ✓ | ✗ | ✓ |
-| $\sqrt{2}$ | ✗ | ✗ | ✗ | ✓ | ✓ |
-| $\pi$ | ✗ | ✗ | ✗ | ✓ | ✓ |
-| $0{,}\overline{3}$ | ✗ | ✗ | ✓ | ✗ | ✓ |
-| $\sqrt{4}$ | ✓ | ✓ | ✓ | ✗ | ✓ |
+| $-3$ | âœ— | âœ“ | âœ“ | âœ— | âœ“ |
+| $0$ | âœ“ | âœ“ | âœ“ | âœ— | âœ“ |
+| $\dfrac{2}{5}$ | âœ— | âœ— | âœ“ | âœ— | âœ“ |
+| $\sqrt{2}$ | âœ— | âœ— | âœ— | âœ“ | âœ“ |
+| $\pi$ | âœ— | âœ— | âœ— | âœ“ | âœ“ |
+| $0{,}\overline{3}$ | âœ— | âœ— | âœ“ | âœ— | âœ“ |
+| $\sqrt{4}$ | âœ“ | âœ“ | âœ“ | âœ— | âœ“ |
 
-> **Observação:** Note que $\sqrt{4}$ é racional/natural; não confundir "raiz quadrada" com "irracional automático".
+> **ObservaÃ§Ã£o:** Note que $\sqrt{4}$ Ã© racional/natural; nÃ£o confundir "raiz quadrada" com "irracional automÃ¡tico".
 
 ---
 
-**Exemplo 2 — Intermediário: dízima periódica em fração**
+**Exemplo 2 â€” IntermediÃ¡rio: dÃ­zima periÃ³dica em fraÃ§Ã£o**
 
-> **Enunciado:** Escreva $0{,}\overline{27}$ na forma de fração irredutível.
+> **Enunciado:** Escreva $0{,}\overline{27}$ na forma de fraÃ§Ã£o irredutÃ­vel.
 
-**Passo 1 — Nomear o número.**
+**Passo 1 â€” Nomear o nÃºmero.**
 
-Chamar $x = 0{,}\overline{27} = 0{,}272727\ldots$. Esse é o passo crucial: dar nome ao número permite manipular algebricamente.
+Chamar $x = 0{,}\overline{27} = 0{,}272727\ldots$. Esse Ã© o passo crucial: dar nome ao nÃºmero permite manipular algebricamente.
 
-**Passo 2 — Determinar quantos dígitos formam o período e multiplicar por $10^n$.**
+**Passo 2 â€” Determinar quantos dÃ­gitos formam o perÃ­odo e multiplicar por $10^n$.**
 
-O período tem **2 dígitos** (o "27"), então multiplica-se ambos os lados por $10^2 = 100$ para "deslocar" o período para a parte inteira:
+O perÃ­odo tem **2 dÃ­gitos** (o "27"), entÃ£o multiplica-se ambos os lados por $10^2 = 100$ para "deslocar" o perÃ­odo para a parte inteira:
 
 $$100x = 27{,}272727\ldots$$
 
-**Passo 3 — Subtrair as duas equações para eliminar a parte decimal infinita.**
+**Passo 3 â€” Subtrair as duas equaÃ§Ãµes para eliminar a parte decimal infinita.**
 
 $$\begin{aligned}
 100x &= 27{,}272727\ldots \\
@@ -228,86 +227,86 @@ $$\begin{aligned}
 99x &= 27
 \end{aligned}$$
 
-A subtração funciona porque a parte decimal de ambos os números é **idêntica** (mesma cauda infinita), então ela se cancela.
+A subtraÃ§Ã£o funciona porque a parte decimal de ambos os nÃºmeros Ã© **idÃªntica** (mesma cauda infinita), entÃ£o ela se cancela.
 
-**Passo 4 — Isolar $x$.**
+**Passo 4 â€” Isolar $x$.**
 
 $$x = \frac{27}{99}$$
 
-**Passo 5 — Simplificar a fração.**
+**Passo 5 â€” Simplificar a fraÃ§Ã£o.**
 
 Calcular $\operatorname{mdc}(27, 99) = 9$. Dividir numerador e denominador por 9:
 
 $$x = \frac{27 \div 9}{99 \div 9} = \frac{3}{11}$$
 
-**Verificação:** $3 \div 11 = 0{,}272727\ldots$ ✓
+**VerificaÃ§Ã£o:** $3 \div 11 = 0{,}272727\ldots$ âœ“
 
 > **Resultado:** $0{,}\overline{27} = \dfrac{3}{11}$.
 
 ---
 
-**Exemplo 3 — Avançado: inequação modular**
+**Exemplo 3 â€” AvanÃ§ado: inequaÃ§Ã£o modular**
 
-> **Enunciado:** Resolva $|2x - 3| \leq 5$ em $\mathbb{R}$ e escreva a solução como intervalo.
+> **Enunciado:** Resolva $|2x - 3| \leq 5$ em $\mathbb{R}$ e escreva a soluÃ§Ã£o como intervalo.
 
-**Passo 1 — Aplicar a propriedade da inequação modular.**
+**Passo 1 â€” Aplicar a propriedade da inequaÃ§Ã£o modular.**
 
-A propriedade-chave é: $|y| \leq a \iff -a \leq y \leq a$ (para $a > 0$). Aqui $y = 2x - 3$ e $a = 5$:
+A propriedade-chave Ã©: $|y| \leq a \iff -a \leq y \leq a$ (para $a > 0$). Aqui $y = 2x - 3$ e $a = 5$:
 
 $$|2x - 3| \leq 5 \iff -5 \leq 2x - 3 \leq 5$$
 
-Essa é uma **inequação dupla** — três expressões ligadas pela mesma variável.
+Essa Ã© uma **inequaÃ§Ã£o dupla** â€” trÃªs expressÃµes ligadas pela mesma variÃ¡vel.
 
-**Passo 2 — Isolar o termo com $x$ somando 3 a todos os "lados" da desigualdade dupla.**
+**Passo 2 â€” Isolar o termo com $x$ somando 3 a todos os "lados" da desigualdade dupla.**
 
-A regra de compatibilidade da ordem com a soma permite somar o mesmo número aos três lados sem alterar as desigualdades:
+A regra de compatibilidade da ordem com a soma permite somar o mesmo nÃºmero aos trÃªs lados sem alterar as desigualdades:
 
 $$-5 + 3 \leq 2x - 3 + 3 \leq 5 + 3$$
 
 $$-2 \leq 2x \leq 8$$
 
-**Passo 3 — Dividir todos os lados por 2 (positivo, então as desigualdades se mantêm).**
+**Passo 3 â€” Dividir todos os lados por 2 (positivo, entÃ£o as desigualdades se mantÃªm).**
 
-> Atenção: se o divisor fosse **negativo**, as desigualdades teriam que ser **invertidas**.
+> AtenÃ§Ã£o: se o divisor fosse **negativo**, as desigualdades teriam que ser **invertidas**.
 
 $$\frac{-2}{2} \leq \frac{2x}{2} \leq \frac{8}{2}$$
 
 $$-1 \leq x \leq 4$$
 
-**Passo 4 — Escrever a solução em notação de intervalo.**
+**Passo 4 â€” Escrever a soluÃ§Ã£o em notaÃ§Ã£o de intervalo.**
 
-Como ambas as desigualdades são $\leq$ (não-estritas), o intervalo é **fechado** nas duas extremidades:
+Como ambas as desigualdades sÃ£o $\leq$ (nÃ£o-estritas), o intervalo Ã© **fechado** nas duas extremidades:
 
 $$S = [-1, 4]$$
 
-**Verificação com extremos:**
-- $x = -1$: $|2(-1) - 3| = |-5| = 5 \leq 5$ ✓
-- $x = 4$: $|2(4) - 3| = |5| = 5 \leq 5$ ✓
-- $x = 0$ (interior): $|2(0) - 3| = |-3| = 3 \leq 5$ ✓
+**VerificaÃ§Ã£o com extremos:**
+- $x = -1$: $|2(-1) - 3| = |-5| = 5 \leq 5$ âœ“
+- $x = 4$: $|2(4) - 3| = |5| = 5 \leq 5$ âœ“
+- $x = 0$ (interior): $|2(0) - 3| = |-3| = 3 \leq 5$ âœ“
 
 > **Resultado:** $S = [-1, 4] = \{x \in \mathbb{R} \mid -1 \leq x \leq 4\}$.
 
 ## Armadilhas & Edge Cases
 
-- **Convenção do zero em $\mathbb{N}$** — no Brasil/Iezzi/Guidorizzi, $0 \in \mathbb{N}$; em outros contextos (textos americanos antigos), $\mathbb{N}$ pode começar em 1; sempre verificar a convenção do livro
-- **Achar que toda raiz é irracional** — $\sqrt{4} = 2$, $\sqrt{9} = 3$, $\sqrt[3]{8} = 2$ são naturais; só raízes não-exatas são irracionais
-- **Confundir dízima periódica com irracional** — toda dízima **periódica** é racional; só dízimas **infinitas e não-periódicas** são irracionais
-- **$0{,}\overline{9} = 1$** — é igualdade exata, não aproximação (verificável pela técnica do Exemplo 2)
-- **Confundir intervalos abertos e fechados** — $[a, b]$ inclui as extremidades (desigualdade $\leq$); $(a, b)$ exclui (desigualdade $<$); na reta, bola cheia $\bullet$ vs. bola vazia $\circ$
-- **Colocar colchete em $\infty$** — sempre parêntese: $[a, +\infty)$, nunca $[a, +\infty]$, pois $\infty$ não é número real
-- **$\sqrt{x^2} = x$ é falso em geral** — o correto é $\sqrt{x^2} = |x|$; a igualdade só vale se $x \geq 0$
-- **Esquecer de inverter a desigualdade ao multiplicar/dividir por negativo** — erro clássico em inequações
-- **Equação $|x| = a$ tem duas soluções para $a > 0$** — $x = a$ **ou** $x = -a$; esquecer da segunda é erro frequente
-- **Inequação modular: separação errada** — $|y| \leq a$ vira $-a \leq y \leq a$ (forma dupla); $|y| \geq a$ vira $y \leq -a$ **ou** $y \geq a$ (união disjunta); nunca confundir as duas formas
+- **ConvenÃ§Ã£o do zero em $\mathbb{N}$** â€” no Brasil/Iezzi/Guidorizzi, $0 \in \mathbb{N}$; em outros contextos (textos americanos antigos), $\mathbb{N}$ pode comeÃ§ar em 1; sempre verificar a convenÃ§Ã£o do livro
+- **Achar que toda raiz Ã© irracional** â€” $\sqrt{4} = 2$, $\sqrt{9} = 3$, $\sqrt[3]{8} = 2$ sÃ£o naturais; sÃ³ raÃ­zes nÃ£o-exatas sÃ£o irracionais
+- **Confundir dÃ­zima periÃ³dica com irracional** â€” toda dÃ­zima **periÃ³dica** Ã© racional; sÃ³ dÃ­zimas **infinitas e nÃ£o-periÃ³dicas** sÃ£o irracionais
+- **$0{,}\overline{9} = 1$** â€” Ã© igualdade exata, nÃ£o aproximaÃ§Ã£o (verificÃ¡vel pela tÃ©cnica do Exemplo 2)
+- **Confundir intervalos abertos e fechados** â€” $[a, b]$ inclui as extremidades (desigualdade $\leq$); $(a, b)$ exclui (desigualdade $<$); na reta, bola cheia $\bullet$ vs. bola vazia $\circ$
+- **Colocar colchete em $\infty$** â€” sempre parÃªntese: $[a, +\infty)$, nunca $[a, +\infty]$, pois $\infty$ nÃ£o Ã© nÃºmero real
+- **$\sqrt{x^2} = x$ Ã© falso em geral** â€” o correto Ã© $\sqrt{x^2} = |x|$; a igualdade sÃ³ vale se $x \geq 0$
+- **Esquecer de inverter a desigualdade ao multiplicar/dividir por negativo** â€” erro clÃ¡ssico em inequaÃ§Ãµes
+- **EquaÃ§Ã£o $|x| = a$ tem duas soluÃ§Ãµes para $a > 0$** â€” $x = a$ **ou** $x = -a$; esquecer da segunda Ã© erro frequente
+- **InequaÃ§Ã£o modular: separaÃ§Ã£o errada** â€” $|y| \leq a$ vira $-a \leq y \leq a$ (forma dupla); $|y| \geq a$ vira $y \leq -a$ **ou** $y \geq a$ (uniÃ£o disjunta); nunca confundir as duas formas
 
-## Conexões
+## ConexÃµes
 
-- [[Matemática]] — MOC da área
-- [[Graduação em Química]] — Roadmap da graduação
-- [[Conjuntos]] — pré-requisito direto (linguagem, operações, inclusão)
-- [[Funções]] — domínio, contradomínio e imagem são subconjuntos de $\mathbb{R}$ (próximo tópico)
-- [[Física]] — grandezas físicas medidas em $\mathbb{R}$; ordem de grandeza; módulo de vetores
+- [[MatemÃ¡tica]] â€” MOC da Ã¡rea
+- [[GraduaÃ§Ã£o em QuÃ­mica]] â€” Roadmap da graduaÃ§Ã£o
+- [[Conjuntos]] â€” prÃ©-requisito direto (linguagem, operaÃ§Ãµes, inclusÃ£o)
+- [[FunÃ§Ãµes]] â€” domÃ­nio, contradomÃ­nio e imagem sÃ£o subconjuntos de $\mathbb{R}$ (prÃ³ximo tÃ³pico)
+- [[FÃ­sica]] â€” grandezas fÃ­sicas medidas em $\mathbb{R}$; ordem de grandeza; mÃ³dulo de vetores
 
 ## Fontes
 
-- GUIDORIZZI, Hamilton Luiz. *Um Curso de Cálculo* — Vol. 1, Apêndice 1: Propriedades dos números reais. pg. 1. LTC.
+- GUIDORIZZI, Hamilton Luiz. *Um Curso de CÃ¡lculo* â€” Vol. 1, ApÃªndice 1: Propriedades dos nÃºmeros reais. pg. 1. LTC.
