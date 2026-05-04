@@ -1,30 +1,14 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { FileTrieNode } from "./quartz/util/fileTrie"
 import ScrollUIFactory from "./components/ScrollUI"
 
 const ScrollUI = ScrollUIFactory()
-
-// MOC detection: arquivo cujo último segmento de slug bate com o da pasta pai
-// ex: química/disciplina/disciplina → MOC de "disciplina"
-const explorerSortFn = (a: FileTrieNode, b: FileTrieNode): number => {
-  const isMoc = (node: FileTrieNode): boolean => {
-    if (node.isFolder || !node.data) return false
-    const parts = node.slug.split("/")
-    return parts.length >= 2 && parts[parts.length - 1] === parts[parts.length - 2]
-  }
-  if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
-  const aMoc = isMoc(a)
-  const bMoc = isMoc(b)
-  if (aMoc !== bMoc) return aMoc ? -1 : 1
-  return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: "base" })
-}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [ScrollUI],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jhow-043/logos-archive",
@@ -58,7 +42,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       filterFn: (node) => node.name !== "_stubs",
-      sortFn: explorerSortFn,
     }),
   ],
   right: [
@@ -67,6 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
   afterBody: [
     Component.Graph(),
     Component.Backlinks(),
+    ScrollUI,
   ],
 }
 
@@ -87,10 +71,10 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       filterFn: (node) => node.name !== "_stubs",
-      sortFn: explorerSortFn,
     }),
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),
   ],
+  afterBody: [ScrollUI],
 }
