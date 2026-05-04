@@ -8,8 +8,6 @@ date: 2026-04-24
 tipo: moc
 ---
 
-![](/banners/quimica-geral.png)
-
 # Fundamentos de Química I
 
 > MOC da disciplina Fundamentos de Química I — 1º Semestre. Cobre os conceitos fundamentais da ciência química: matéria, modelos atômicos, estequiometria e reações em solução.

@@ -8,8 +8,6 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](/banners/fisica.png)
-
 # ⚛️ Física I — Mecânica
 
 > Mapa de conteúdo da disciplina Física I. Livro base: **Young & Freedman — Física I: Mecânica, 12ª ed. (Sears & Zemansky)**.
