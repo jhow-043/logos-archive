@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { isFolderPath } from "./quartz/util/path"
 
 /**
  * Quartz 4 Configuration
@@ -80,7 +81,26 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({
+        sort: (f1, f2) => {
+          // Folders (index pages) always first
+          const f1IsFolder = isFolderPath(f1.slug ?? "")
+          const f2IsFolder = isFolderPath(f2.slug ?? "")
+          if (f1IsFolder !== f2IsFolder) return f1IsFolder ? -1 : 1
+          // MOC files second (tipo: moc in frontmatter)
+          const f1IsMoc = (f1.frontmatter as Record<string, unknown>)?.tipo === "moc"
+          const f2IsMoc = (f2.frontmatter as Record<string, unknown>)?.tipo === "moc"
+          if (f1IsMoc !== f2IsMoc) return f1IsMoc ? -1 : 1
+          // Then date descending
+          if (f1.dates && f2.dates) return f2.dates.modified.getTime() - f1.dates.modified.getTime()
+          if (f1.dates && !f2.dates) return -1
+          if (!f1.dates && f2.dates) return 1
+          // Fallback: alphabetical
+          const t1 = f1.frontmatter?.title.toLowerCase() ?? ""
+          const t2 = f2.frontmatter?.title.toLowerCase() ?? ""
+          return t1.localeCompare(t2)
+        },
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,

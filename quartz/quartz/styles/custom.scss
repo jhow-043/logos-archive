@@ -166,4 +166,156 @@ h4, h5, h6 {
   margin: 2rem 0 1rem;
 }
 
+/* ── Fase 2: MOC indicator no Explorer ───────────────────────── */
+/* The ◆ prefix is added via mapFn; add accent color via CSS */
+.explorer-ul .explorer-node a[data-for] {
+  /* fallthrough to normal styles */
+}
+
+/* First file in any explorer folder list = MOC (after sortFn puts it first).
+   Use the ◆ prefix character as a selector hook via :has() if supported,
+   otherwise just style the ◆ character universally. */
+.explorer-ul a[href] {
+  &:has(+ a),   /* older: purely text-based, handled by inline style below */
+  & { }
+}
+
+/* ◆ prefix rendered by mapFn — color it with accent */
+.explorer li > a {
+  /* inherit by default; ◆ will inherit the link color */
+}
+
+/* ── Fase 3: Cards visuais nas folder pages ───────────────────── */
+/* Target the page-listing on folder/tag index pages */
+.popover-hint ul.section-ul,
+.page-listing ul.section-ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+}
+
+.popover-hint li.section-li,
+.page-listing li.section-li {
+  margin-bottom: 0;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  overflow: hidden;
+
+  &:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.07);
+    transform: translateY(-1px);
+  }
+
+  /* MOC card: accent left border */
+  &:first-of-type:not(:only-child) {
+    border-left: 3px solid var(--secondary);
+    background: var(--highlight);
+  }
+
+  & > .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    grid-template-columns: unset;
+
+    & > .meta {
+      font-size: 0.72rem;
+      white-space: nowrap;
+      opacity: 0.55;
+      margin: 0;
+      min-width: 5.5em;
+    }
+
+    & > .desc {
+      flex: 1;
+      min-width: 0;
+
+      & > h3 {
+        margin: 0;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--dark);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        & > a {
+          color: inherit;
+          text-decoration: none;
+          background: transparent;
+
+          &:hover {
+            color: var(--secondary);
+          }
+        }
+      }
+    }
+
+    & > .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+
+      @media #{$mobile} {
+        display: none;
+      }
+    }
+  }
+}
+
+/* ── Fase 4: Barra de progresso de leitura ───────────────────── */
+/* Thin accent bar at the very top of the viewport */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+  z-index: 9999;
+  transition: width 0.1s linear;
+  pointer-events: none;
+  border-radius: 0 2px 2px 0;
+}
+
+/* ── Fase 4: Botão back-to-top ───────────────────────────────── */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--secondary);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.2s, transform 0.2s, border-color 0.15s, box-shadow 0.15s;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  line-height: 1;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  &:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+  }
+}
 

@@ -395,23 +395,23 @@ def update_index_stats(dry_run: bool) -> None:
     if not index_path.exists():
         return
 
-    notes = 0
-    disciplinas: set = set()
-    semestres: set = set()
-    for md in DEST_ROOT.rglob("*.md"):
-        notes += 1
-        text = md.read_text(encoding="utf-8", errors="replace")
-        m = FRONTMATTER_RE.match(text)
-        if not m:
-            continue
-        try:
-            fm = yaml.safe_load(m.group(1)) or {}
-        except yaml.YAMLError:
-            continue
-        if fm.get("disciplina"):
-            disciplinas.add(str(fm["disciplina"]))
-        if fm.get("semestre"):
-            semestres.add(str(fm["semestre"]))
+    # Conta notas: todos os .md excluindo index.md gerados
+    notes = sum(
+        1 for md in DEST_ROOT.rglob("*.md")
+        if md.name.lower() != "index.md"
+    )
+    # Semestres: subpastas diretas de DEST_ROOT (ex: "1º Semestre")
+    semestres = {
+        d for d in DEST_ROOT.iterdir()
+        if d.is_dir() and not d.name.startswith(".")
+        and d.name.lower() not in {"banners", "_stubs"}
+    }
+    # Disciplinas: subpastas dentro de cada semestre
+    disciplinas: set[str] = set()
+    for sem in semestres:
+        for d in sem.iterdir():
+            if d.is_dir() and not d.name.startswith("."):
+                disciplinas.add(d.name)
 
     n_notas = notes
     n_disc  = len(disciplinas)
