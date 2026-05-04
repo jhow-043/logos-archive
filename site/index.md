@@ -6,6 +6,8 @@ cssclasses:
   - homepage
 ---
 
+![](https://jhow-043.github.io/logos-archive/static/banners/logos-archive.png)
+
 <div class="hero">
   <h1 class="hero-title">Logos Archive</h1>
   <p class="hero-sub">Caderno digital aberto — notas da graduação em Química, escritas enquanto estudo e deixadas abertas pra quem precisar.</p>
