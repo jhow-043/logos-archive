@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 5 — Aplicações das leis de Newton
-
 > Com as Leis de Newton estabelecidas, este capítulo as aplica a situações reais: equilíbrio de partículas, dinâmica com múltiplas forças, forças de atrito e movimento circular. A ferramenta central continua sendo o **diagrama do corpo livre**.
 
 ---

@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 3 — Movimento em duas ou três dimensões
-
 > O movimento no plano e no espaço é descrito pelos mesmos conceitos do Cap 2 — posição, velocidade e aceleração — porém agora como **vetores**. As componentes são independentes: cada eixo obedece às leis do Cap 2 separadamente.
 
 ---

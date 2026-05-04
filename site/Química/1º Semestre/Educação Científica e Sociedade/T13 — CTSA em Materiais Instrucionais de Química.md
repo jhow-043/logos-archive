@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T13 — CTSA em Materiais Instrucionais de Química
-
 > Análise da presença e qualidade da perspectiva CTSA em materiais instrucionais (livros didáticos, apostilas) de Química. **Bloco II — Trabalho Final da Disciplina (TFD).**
 
 ---

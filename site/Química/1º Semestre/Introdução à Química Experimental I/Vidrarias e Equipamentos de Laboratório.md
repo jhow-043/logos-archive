@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-# Vidrarias e Equipamentos de Laboratório
-
 > O domínio das vidrarias e equipamentos é o pré-requisito de toda prática experimental. Cada peça tem função específica, tolerância de temperatura e modo correto de uso — confundir ou usar de modo inadequado compromete os resultados e cria riscos de segurança.
 
 ---

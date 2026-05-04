@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T01 — Pressupostos Teóricos da Abordagem CTS
-
 > Wildson & Mortimer — Análise dos fundamentos teóricos que sustentam a abordagem CTS no ensino de Ciências. **Bloco I — Prova I.**
 
 ---

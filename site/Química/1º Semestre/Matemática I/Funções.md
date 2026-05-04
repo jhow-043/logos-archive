@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Funções
-
 > Definição formal de função, domínio, imagem, classificação (injetora/sobrejetora/bijetora), composição e função inversa — a linguagem central de todo o cálculo.
 
 ---

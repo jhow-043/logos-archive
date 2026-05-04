@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Funções Trigonométricas
-
 > As funções trigonométricas ($\operatorname{sen}$, $\operatorname{cos}$, $\operatorname{tg}$ e suas recíprocas) são funções reais definidas a partir do ciclo trigonométrico, com periodicidade, simetria e comportamento gráfico característicos — base para o estudo de oscilações, ondas e Cálculo I.
 
 ---

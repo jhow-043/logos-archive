@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-# Estados da Matéria e Classificação
-
 > A matéria se apresenta em diferentes **estados de agregação** (sólido, líquido, gasoso) dependendo das condições de temperatura e pressão. Compreender esses estados e as transformações entre eles é a base para entender toda a Química.
 
 ---

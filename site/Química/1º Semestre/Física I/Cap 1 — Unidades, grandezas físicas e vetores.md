@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 1 — Unidades, grandezas físicas e vetores
-
 > Toda medição em Física exige uma unidade de referência. Este capítulo estabelece o Sistema Internacional (SI), define grandezas escalares e vetoriais, e apresenta as operações com vetores — ferramentas essenciais para todos os capítulos seguintes.
 
 ---

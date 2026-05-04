@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T11 — Polímeros na Perspectiva CTSA
-
 > Aplicação da perspectiva CTSA ao ensino do tema polímeros — exemplo concreto de articulação entre conteúdo químico e contexto socioambiental. **Bloco II — Trabalho Final da Disciplina (TFD).**
 
 ---

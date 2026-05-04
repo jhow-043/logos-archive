@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 2 — Movimento retilíneo
-
 > Cinemática unidimensional: descreve **como** um objeto se move ao longo de uma reta — posição, velocidade e aceleração — sem se preocupar com a **causa** do movimento (isso é dinâmica, Cap 4-5).
 
 ---

@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T08 — Indicativos para Abordagens CTS
-
 > Critérios e indicativos práticos para identificar e implementar abordagens CTS em contextos de ensino. **Bloco II — Trabalho Final da Disciplina (TFD).**
 
 ---

@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Conjuntos
-
 > Teoria básica de conjuntos: linguagem, notação, operações e cardinalidade — fundamento comum a toda a matemática do semestre.
 
 ---

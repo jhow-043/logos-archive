@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-# Precisão × Exatidão e Tratamento de Erros
-
 > **Precisão** e **exatidão** são conceitos distintos e frequentemente confundidos. Toda medida experimental está sujeita a erros — entender sua natureza (sistemático vs. aleatório) é o que diferencia um cientista que interpreta dados de um que apenas os coleta.
 
 ---

@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Limites
-
 > O limite formaliza a ideia de "tendência" — o valor para o qual uma função se aproxima quando a variável independente se aproxima de um ponto, independentemente do valor da função nesse ponto. É o alicerce rigoroso do Cálculo.
 
 ---

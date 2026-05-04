@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-# Reações de Identificação por Dupla-Troca
-
 > É possível identificar soluções desconhecidas sem rótulo combinando-as sistematicamente e observando os produtos. O método de exclusão, baseado em reações de dupla-troca (metátese), explora padrões de precipitação, efervescência e cor para reduzir o espaço de possibilidades até a identificação única de cada solução.
 
 ---

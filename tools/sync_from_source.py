@@ -189,6 +189,24 @@ def transform_frontmatter(fm: dict, body: str, stem: str) -> dict:
     return out
 
 
+def strip_h1(body: str) -> str:
+    """Remove o primeiro heading H1 do corpo.
+
+    O Quartz já renderiza o título via componente ArticleTitle (frontmatter
+    `title`). Manter o H1 no corpo cria título duplicado na página.
+    """
+    lines = body.splitlines(keepends=True)
+    H1_RE = re.compile(r"^#\s+.+")
+    for i, line in enumerate(lines):
+        if H1_RE.match(line):
+            # Remove o H1 e a linha em branco imediatamente após (se houver)
+            del lines[i]
+            if i < len(lines) and not lines[i].strip():
+                del lines[i]
+            break
+    return "".join(lines)
+
+
 def strip_moc_sections(body: str) -> str:
     """Remove seções de MOC que só fazem sentido no vault (ex.: Notas da Disciplina).
 
@@ -262,6 +280,7 @@ def sync_file(src: Path, dest: Path, dry_run: bool, stats: dict) -> None:
         return
 
     new_fm = transform_frontmatter(fm, body, src.stem)
+    body = strip_h1(body)
     if _get_tipo(fm) == "moc":
         body = strip_moc_sections(body)
     new_content = f"---\n{dump_frontmatter(new_fm)}---\n{body}"

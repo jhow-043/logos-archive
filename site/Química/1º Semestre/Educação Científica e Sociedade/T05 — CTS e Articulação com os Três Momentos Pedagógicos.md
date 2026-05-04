@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T05 — CTS e Articulação com os Três Momentos Pedagógicos
-
 > Análise da articulação entre a abordagem CTS e os Três Momentos Pedagógicos (3MP) no planejamento de aulas de Ciências. **Bloco I — Prova I.**
 
 ---

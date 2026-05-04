@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Funções e Gráficos
-
 > Representação visual de funções no plano cartesiano, propriedades geométricas (paridade, monotonicidade, limitação), funções elementares e transformações de gráficos.
 
 ---

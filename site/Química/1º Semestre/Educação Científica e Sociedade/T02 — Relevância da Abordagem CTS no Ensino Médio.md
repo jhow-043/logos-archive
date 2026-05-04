@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T02 — Relevância da Abordagem CTS no Ensino Médio
-
 > Análise da pertinência e relevância da perspectiva CTS para o ensino de Ciências no Ensino Médio. **Bloco I — Prova I.**
 
 ---

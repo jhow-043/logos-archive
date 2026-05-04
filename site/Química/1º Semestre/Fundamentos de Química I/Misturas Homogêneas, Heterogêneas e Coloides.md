@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-# Misturas Homogêneas, Heterogêneas e Coloides
-
 > Uma **mistura** é toda porção de matéria com composição variável, formada por duas ou mais substâncias puras. Misturas se classificam em **homogêneas** (uma única fase visível), **heterogêneas** (duas ou mais fases) ou **coloides** (dispersões de partículas intermediárias com comportamento distinto dos outros dois tipos).
 
 ---

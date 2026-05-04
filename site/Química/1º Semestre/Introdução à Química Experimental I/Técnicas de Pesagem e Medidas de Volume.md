@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-# Técnicas de Pesagem e Medidas de Volume
-
 > Toda grandeza medida em laboratório carrega incerteza. Esta prática quantifica o erro experimental das vidrarias mais comuns (proveta, pipeta volumétrica e bureta) por gravimetria e consolida os conceitos de exatidão, precisão, algarismos significativos e notação científica aplicados à prática experimental.
 
 ---

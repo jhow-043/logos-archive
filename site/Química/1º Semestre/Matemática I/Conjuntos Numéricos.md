@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Conjuntos Numéricos
-
 > Hierarquia $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, propriedades dos números reais, intervalos e módulo — base de todo o cálculo.
 
 ---

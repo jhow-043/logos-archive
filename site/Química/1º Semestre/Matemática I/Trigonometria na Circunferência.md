@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Trigonometria na Circunferência
-
 > Generalização das razões trigonométricas para qualquer ângulo real via ciclo trigonométrico — extensão natural do triângulo retângulo para a circunferência unitária.
 
 ---

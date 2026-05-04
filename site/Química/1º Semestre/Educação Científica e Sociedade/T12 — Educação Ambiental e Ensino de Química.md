@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T12 — Educação Ambiental e Ensino de Química
-
 > Análise da integração entre Educação Ambiental e o ensino de Química na perspectiva CTS/CTSA. **Bloco II — Trabalho Final da Disciplina (TFD).**
 
 ---

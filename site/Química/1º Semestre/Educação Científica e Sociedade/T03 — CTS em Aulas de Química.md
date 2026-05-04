@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T03 — CTS em Aulas de Química
-
 > Amaral & Firme — Destaques e análise da abordagem CTS aplicada em aulas de Química. **Bloco I — Prova I.**
 
 ---

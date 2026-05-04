@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-# Grandezas Físicas e Sistema Internacional (SI)
-
 > Toda medida em Ciência exige uma **grandeza** (o que se mede), uma **unidade** (a referência padrão) e um **número** (quantas vezes a unidade cabe na grandeza). O **Sistema Internacional de Unidades (SI)** padroniza essas unidades globalmente, garantindo que experimentos realizados em qualquer laboratório do mundo possam ser comparados e reproduzidos.
 
 ---

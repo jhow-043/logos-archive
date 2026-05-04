@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T3A — CTS e Obstáculos à Implementação
-
 > Texto complementar ao T03 — analisa os obstáculos e resistências encontradas na implementação da abordagem CTS na prática escolar. **Bloco I — Prova I.**
 
 ---

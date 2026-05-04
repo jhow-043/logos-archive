@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-# Algarismos Significativos
-
 > Toda medida experimental carrega incerteza. Os **algarismos significativos (AS)** são os dígitos de um número que carregam informação real sobre a medida — incluindo o último dígito incerto (estimado). Saber contar e operar com AS é essencial para comunicar resultados experimentais com a honestidade adequada.
 
 ---

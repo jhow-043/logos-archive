@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: educacao-cientifica
 semestre: 1
 ---
-# T07 — Três Momentos Pedagógicos e Abordagem CTS
-
 > Aprofundamento da relação entre os Três Momentos Pedagógicos e a abordagem CTS no ensino de Ciências. **Bloco II — Trabalho Final da Disciplina (TFD).**
 
 ---

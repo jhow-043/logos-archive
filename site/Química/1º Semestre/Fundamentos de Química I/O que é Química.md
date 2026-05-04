@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-# O que é Química?
-
 > Química é a ciência que estuda a **matéria** — sua composição, estrutura, propriedades e as transformações que ela sofre. Compreender a química é compreender a linguagem em que o universo escreve suas leis.
 
 ---

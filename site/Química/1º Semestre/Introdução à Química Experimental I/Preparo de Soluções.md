@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-# Preparo de Soluções
-
 > Preparar uma solução de concentração definida é uma das operações mais frequentes em laboratório. Errar na massa ou no volume inicial compromete toda análise subsequente. Esta prática consolida os cálculos de concentração molar e os procedimentos corretos para reagentes sólidos (NaOH) e líquidos concentrados (HCl).
 
 ---

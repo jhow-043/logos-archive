@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-# Transformações Físicas e Químicas
-
 > A distinção entre fenômeno físico e químico é fundamental em química. Fisicamente, a identidade da substância é preservada; quimicamente, novas substâncias são formadas. Esta prática treina a observação sistemática de evidências que indicam a ocorrência de reação química, a partir de seis experimentos com reagentes distintos.
 
 ---

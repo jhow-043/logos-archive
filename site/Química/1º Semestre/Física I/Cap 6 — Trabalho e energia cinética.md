@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 6 — Trabalho e energia cinética
-
 > O conceito de **energia** oferece uma alternativa poderosa à 2ª Lei de Newton: em vez de analisar forças a cada instante, relacionamos o estado inicial e final do movimento. O **Teorema do Trabalho-Energia** é o elo central deste capítulo.
 
 ---

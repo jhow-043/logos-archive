@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 7 — Energia potencial e conservação da energia
-
 > Quando forças conservativas atuam, podemos armazenar energia no sistema como **energia potencial** e usar o poderoso princípio da **conservação da energia mecânica** — que dispensa o cálculo de forças a cada instante.
 
 ---

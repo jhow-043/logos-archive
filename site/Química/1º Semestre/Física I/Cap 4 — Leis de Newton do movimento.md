@@ -10,8 +10,6 @@ tipo: estudo
 disciplina: fisica
 semestre: 1
 ---
-# Cap 4 — Leis de Newton do movimento
-
 > A dinâmica responde à pergunta que a cinemática ignora: **por que** um objeto acelera? As três Leis de Newton estabelecem a relação entre **força** e **movimento** — base de toda a mecânica clássica.
 
 ---

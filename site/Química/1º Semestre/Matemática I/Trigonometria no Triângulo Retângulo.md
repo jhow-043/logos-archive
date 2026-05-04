@@ -9,8 +9,6 @@ tipo: estudo
 disciplina: matematica
 semestre: 1
 ---
-# Trigonometria no Triângulo Retângulo
-
 > Razões trigonométricas fundamentais (seno, cosseno e tangente) definidas a partir do triângulo retângulo — base para toda a trigonometria do ciclo básico.
 
 ---
