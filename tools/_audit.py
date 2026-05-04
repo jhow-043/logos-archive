@@ -20,6 +20,18 @@ except ImportError:
     print("Instale PyYAML: pip install pyyaml", file=sys.stderr)
     sys.exit(1)
 
+_USE_COLOR = sys.stdout.isatty()
+
+
+def _c(text: str, code: str) -> str:
+    return f"\033[{code}m{text}\033[0m" if _USE_COLOR else text
+
+
+def _green(t: str)  -> str: return _c(t, "32")
+def _yellow(t: str) -> str: return _c(t, "33")
+def _red(t: str)    -> str: return _c(t, "31")
+def _bold(t: str)   -> str: return _c(t, "1")
+
 
 def _load_config():
     config_path = Path(__file__).parent / "sync.config.yaml"
@@ -40,55 +52,55 @@ WIKILINK_RE     = re.compile(r"\[\[([^\]|#]+)")
 
 def check_encoding(root: Path, label: str) -> int:
     """Verifica BOM e artifacts de double-encoding. Retorna número de problemas."""
-    print(f"\n=== {label} (encoding) ===")
+    print(f"\n{_bold(f'=== {label} (encoding) ===')}")    
     issues = 0
     for md in sorted(root.rglob("*.md")):
         raw = md.read_bytes()
         if raw[:3] == b"\xef\xbb\xbf":
-            print(f"  BOM: {md.name}")
+            print(_red(f"  BOM: {md.name}"))
             issues += 1
             continue
         try:
             text = raw.decode("utf-8")
         except Exception as e:
-            print(f"  ERRO UTF-8: {md.name}: {e}")
+            print(_red(f"  ERRO UTF-8: {md.name}: {e}"))
             issues += 1
             continue
         found = [a for a in ARTIFACTS if a in text]
         if found:
             for i, line in enumerate(text.splitlines(), 1):
                 if any(a in line for a in found):
-                    print(f"  [{md.name}] linha {i}: {line[:100]}")
+                    print(_red(f"  [{md.name}] linha {i}: {line[:100]}"))
                     break
             issues += 1
     if issues == 0:
-        print("  Nenhum problema de encoding.")
+        print(_green("  Nenhum problema de encoding."))
     return issues
 
 
 def check_frontmatter(site: Path) -> int:
     """Verifica campos obrigatórios (title, tipo, date) em todos os .md do site."""
-    print(f"\n=== SITE (frontmatter) ===")
+    print(f"\n{_bold('=== SITE (frontmatter) ===')}")    
     issues = 0
     for md in sorted(site.rglob("*.md")):
         text = md.read_text(encoding="utf-8", errors="replace")
         m = FRONTMATTER_RE.match(text)
         if not m:
-            print(f"  SEM FRONTMATTER: {md.relative_to(site)}")
+            print(_red(f"  SEM FRONTMATTER: {md.relative_to(site)}"))
             issues += 1
             continue
         try:
             fm = yaml.safe_load(m.group(1)) or {}
         except yaml.YAMLError as exc:
-            print(f"  YAML INVÁLIDO: {md.relative_to(site)}: {exc}")
+            print(_red(f"  YAML INVÁLIDO: {md.relative_to(site)}: {exc}"))
             issues += 1
             continue
         missing = [f for f in REQUIRED_FIELDS if not fm.get(f)]
         if missing:
-            print(f"  CAMPOS FALTANDO {missing}: {md.relative_to(site)}")
+            print(_red(f"  CAMPOS FALTANDO {missing}: {md.relative_to(site)}"))
             issues += 1
     if issues == 0:
-        print("  Todos os frontmatters válidos.")
+        print(_green("  Todos os frontmatters válidos."))
     return issues
 
 
@@ -117,9 +129,9 @@ def check_wikilinks(site: Path) -> None:
                     print(f"  AVISO [{md.relative_to(site)}]: [[{target}]]")
                     warnings += 1
     if warnings == 0:
-        print("  Todos os wikilinks resolvidos.")
+        print(_green("  Todos os wikilinks resolvidos."))
     else:
-        print(f"  {warnings} link(s) sem destino (não bloqueia deploy).")
+        print(_yellow(f"  {warnings} link(s) sem destino (não bloqueia deploy)."))
 
 
 def main() -> None:
@@ -149,7 +161,8 @@ def main() -> None:
         else:
             print("⚠ sync.config.yaml não encontrado; pulando verificação do site.")
 
-    print(f"\nTotal de problemas: {total}")
+    msg = f"\nTotal de problemas: {total}"
+    print(_green(msg) if total == 0 else _red(msg))
     if total > 0:
         sys.exit(1)
 

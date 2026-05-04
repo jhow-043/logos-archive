@@ -182,6 +182,23 @@ def strip_emojis(text: str) -> str:
     return EMOJI_RE.sub("", text).strip()
 
 
+# ── Terminal output (ANSI sem dependências externas) ──────────────────────────
+
+_USE_COLOR = sys.stdout.isatty()
+
+
+def _c(text: str, code: str) -> str:
+    """Aplica código ANSI `code` apenas quando stdout é um terminal interativo."""
+    return f"\033[{code}m{text}\033[0m" if _USE_COLOR else text
+
+
+def _green(t: str)  -> str: return _c(t, "32")
+def _yellow(t: str) -> str: return _c(t, "33")
+def _red(t: str)    -> str: return _c(t, "31")
+def _cyan(t: str)   -> str: return _c(t, "36")
+def _bold(t: str)   -> str: return _c(t, "1")
+
+
 def should_sync(fm: dict) -> bool:
     """Retorna True se o arquivo deve ser sincronizado."""
     tipo = _get_tipo(fm)
@@ -313,21 +330,30 @@ def dump_frontmatter(fm: dict) -> str:
     return yaml.dump(fm, allow_unicode=True, default_flow_style=False, sort_keys=False)
 
 
-def sync_file(src: Path, dest: Path, dry_run: bool, stats: dict) -> None:
+def sync_file(src: Path, dest: Path, dry_run: bool, stats: dict, verbose: bool = False) -> None:
     fm, body = parse_file(src)
 
     if not should_sync(fm):
         stats["skipped"] += 1
+        if verbose:
+            tipo   = _get_tipo(fm) or "—"
+            status = fm.get("status", "—")
+            print(_yellow(f"  ~ {src.relative_to(SOURCE_ROOT)}  [tipo={tipo}, status={status}]"))
         return
 
+    # Captura título bruto antes da transformação para detectar remoção de emoji
+    _raw_title = fm.get("title") or extract_title(body) or src.stem
     new_fm = transform_frontmatter(fm, body, src.stem)
+    if _raw_title and _raw_title != new_fm.get("title", ""):
+        print(_yellow(f'  ⚠  Emoji removido do título: "{_raw_title}" → "{new_fm["title"]}"'))
+
     body = strip_h1(body)
     if _get_tipo(fm) == "moc":
         body = strip_moc_sections(body)
     new_content = f"---\n{dump_frontmatter(new_fm)}---\n{body}"
 
     if dry_run:
-        print(f"  [DRY] {src.relative_to(SOURCE_ROOT)}")
+        print(_cyan(f"  [DRY] {src.relative_to(SOURCE_ROOT)}"))
         stats["synced"] += 1
         return
 
@@ -335,7 +361,10 @@ def sync_file(src: Path, dest: Path, dry_run: bool, stats: dict) -> None:
     # Escreve em modo binário com LF explícito (evita CRLF no Windows)
     dest.write_bytes(new_content.encode("utf-8"))
     stats["synced"] += 1
-    print(f"  ✓ {dest.relative_to(DEST_ROOT.parent)}")
+    if verbose:
+        print(_green(f"  ✓ {src.relative_to(SOURCE_ROOT)}  →  {dest.relative_to(DEST_ROOT.parent)}"))
+    else:
+        print(_green(f"  ✓ {dest.relative_to(DEST_ROOT.parent)}"))
 
 
 def validate_stubs(report_only: bool) -> None:
@@ -351,13 +380,61 @@ def validate_stubs(report_only: bool) -> None:
                 missing.append((str(md.relative_to(DEST_ROOT)), target))
 
     if missing:
-        print(f"\n⚠  Links sem destino ({len(missing)}):")
+        print(_yellow(f"\n⚠  Links sem destino ({len(missing)}):"))
         for file, link in missing:
             print(f"   {file}: [[{link}]]")
         if not report_only:
-            print("\nCrie os arquivos de stub ou corrija os links.")
+            print("Crie os arquivos de stub ou corrija os links.")
     else:
-        print("✓ Todos os links internos estão resolvidos.")
+        print(_green("✓ Todos os links internos estão resolvidos."))
+
+
+def update_index_stats(dry_run: bool) -> None:
+    """Conta notas/disciplinas/semestres no site/ e atualiza os stat-cards em index.md."""
+    index_path = DEST_ROOT.parent / "index.md"
+    if not index_path.exists():
+        return
+
+    notes = 0
+    disciplinas: set = set()
+    semestres: set = set()
+    for md in DEST_ROOT.rglob("*.md"):
+        notes += 1
+        text = md.read_text(encoding="utf-8", errors="replace")
+        m = FRONTMATTER_RE.match(text)
+        if not m:
+            continue
+        try:
+            fm = yaml.safe_load(m.group(1)) or {}
+        except yaml.YAMLError:
+            continue
+        if fm.get("disciplina"):
+            disciplinas.add(str(fm["disciplina"]))
+        if fm.get("semestre"):
+            semestres.add(str(fm["semestre"]))
+
+    n_notas = notes
+    n_disc  = len(disciplinas)
+    n_sem   = len(semestres)
+
+    if dry_run:
+        print(_cyan(f"  [DRY] Stats: {n_notas} notas, {n_disc} disciplina(s), {n_sem} semestre(s)"))
+        return
+
+    text = index_path.read_text(encoding="utf-8")
+    replacements = [
+        (r'(<span class="stat-num">)\d+(</span><span class="stat-label">notas</span>)',        rf'\g<1>{n_notas}\2'),
+        (r'(<span class="stat-num">)\d+(</span><span class="stat-label">disciplinas</span>)', rf'\g<1>{n_disc}\2'),
+        (r'(<span class="stat-num">)\d+(</span><span class="stat-label">semestre</span>)',    rf'\g<1>{n_sem}\2'),
+    ]
+    updated = text
+    for pattern, repl in replacements:
+        updated = re.sub(pattern, repl, updated)
+    if updated != text:
+        index_path.write_bytes(updated.encode("utf-8"))
+        print(_green(f"  ✓ Stats atualizadas → {n_notas} notas, {n_disc} disciplina(s), {n_sem} semestre(s)"))
+    else:
+        print(f"  Stats inalteradas → {n_notas} notas, {n_disc} disciplina(s), {n_sem} semestre(s)")
 
 
 def main() -> None:
@@ -365,6 +442,8 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="Simula sem copiar arquivos")
     parser.add_argument("--validate-stubs", action="store_true", help="Valida links internos")
     parser.add_argument("--report-only", action="store_true", help="Apenas reporta, sem modificar")
+    parser.add_argument("--verbose", "-v", action="store_true",
+                        help="Exibe arquivos ignorados com razão e paths de origem")
     args = parser.parse_args()
 
     if args.validate_stubs:
@@ -372,12 +451,18 @@ def main() -> None:
         return
 
     if not SOURCE_ROOT.exists():
-        print(f"Erro: source não encontrado:\n  {SOURCE_ROOT}", file=sys.stderr)
+        print(_red(f"Erro: source não encontrado:\n  {SOURCE_ROOT}"), file=sys.stderr)
+        print("Verifique o campo 'source' em tools/sync.config.yaml", file=sys.stderr)
+        sys.exit(1)
+
+    if not DEST_ROOT.parent.exists():
+        print(_red(f"Erro: diretório pai do dest não encontrado:\n  {DEST_ROOT.parent}"), file=sys.stderr)
+        print("Verifique o campo 'dest' em tools/sync.config.yaml", file=sys.stderr)
         sys.exit(1)
 
     stats = {"synced": 0, "skipped": 0}
-    label = "[DRY-RUN] " if args.dry_run else ""
-    print(f"{label}Sincronizando:\n  {SOURCE_ROOT}\n  -> {DEST_ROOT}\n")
+    label = _cyan("[DRY-RUN] ") if args.dry_run else ""
+    print(f"{label}{_bold('Sincronizando:')}\n  {SOURCE_ROOT}\n  -> {DEST_ROOT}\n")
 
     for src in sorted(SOURCE_ROOT.rglob("*.md")):
         rel = src.relative_to(SOURCE_ROOT)
@@ -387,10 +472,14 @@ def main() -> None:
         if rel.name in EXCLUDE_FILES:
             continue
         dest = DEST_ROOT / rel
-        sync_file(src, dest, dry_run=args.dry_run, stats=stats)
+        sync_file(src, dest, dry_run=args.dry_run, stats=stats, verbose=args.verbose)
 
     verb = "Simulação" if args.dry_run else "Sync"
-    print(f"\n{verb} concluído: {stats['synced']} sincronizado(s), {stats['skipped']} ignorado(s).")
+    print(f"\n{_bold(verb + ' concluído:')} {stats['synced']} sincronizado(s), {stats['skipped']} ignorado(s).")
+
+    if not args.report_only:
+        print("\nAtualizando stats da homepage...")
+        update_index_stats(dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

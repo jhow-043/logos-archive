@@ -56,6 +56,23 @@ cd logos-archive
 npm install --prefix quartz
 ```
 
+### Configuração do sync
+
+O script de sync precisa saber onde está o seu vault local. Crie o arquivo de configuração a partir do template:
+
+```bash
+cp tools/sync.config.example.yaml tools/sync.config.yaml
+```
+
+Edite `tools/sync.config.yaml` com os caminhos reais:
+
+```yaml
+source: '/caminho/para/seu-vault/01 - Roadmaps/Graduação em Química'
+dest:   '/caminho/para/logos-archive/site/Química'
+```
+
+> O `sync.config.yaml` está no `.gitignore` — cada máquina precisa de sua própria cópia.
+
 ### Comandos
 
 ```bash
@@ -85,9 +102,10 @@ logos-archive-v1/
 
 | Documento | Descrição |
 |-----------|-----------|
-| [docs/architecture.md](docs/architecture.md) | Arquitetura e decisões de design |
-| [docs/runbook.md](docs/runbook.md) | Guia operacional (sync, build, debug) |
-| [docs/decisions/](docs/decisions/) | Architecture Decision Records (ADRs) |
+| [docs/index.md](docs/index.md) | Visão geral da arquitetura e stack |
+| [docs/sync.md](docs/sync.md) | Detalhes do pipeline de sync (regras, transformações) |
+| [docs/patterns.md](docs/patterns.md) | Padrões de frontmatter para MOCs e notas |
+| [docs/troubleshooting.md](docs/troubleshooting.md) | Problemas comuns e como resolver |
 
 ---
 
