@@ -1,4 +1,4 @@
-﻿---
+---
 title: ⚛️ Física I — Mecânica
 description: 'Mapa de conteúdo da disciplina Física I. Livro base: Young & Freedman
   — Física I: Mecânica, 12ª ed. (Sears & Zemansky).'
@@ -29,14 +29,6 @@ tipo: moc
 ---
 
 ## Notas do semestre
-
-> [!progresso] Dataview
-> ```dataview
-> TABLE created AS "Criado", status AS "Status"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Física I"
-> WHERE tipo = "estudo"
-> SORT created ASC
-> ```
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fundamentos de Química I
 description: 'MOC da disciplina Fundamentos de Química I — 1º Semestre. Cobre os conceitos
   fundamentais da ciência química: matéria, modelos atômicos, estequiometria e reaçõe…'
@@ -40,14 +40,6 @@ tipo: moc
 ---
 
 ## Notas da Disciplina
-
-> [!progresso] Dataview
-> ```dataview
-> TABLE status AS "Status", created AS "Criado"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Fundamentos de Química I"
-> WHERE tipo = "estudo"
-> SORT created ASC
-> ```
 
 ---
 

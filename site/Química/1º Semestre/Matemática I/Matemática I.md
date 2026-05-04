@@ -1,4 +1,4 @@
-﻿---
+---
 title: Matemática I
 description: MOC da disciplina Matemática I — 1º Semestre. Cobre fundamentos de conjuntos,
   funções, trigonometria e introdução a limites — base matemática para Cálculo e Fís…
@@ -62,14 +62,6 @@ tipo: moc
 ---
 
 ## Notas da Disciplina
-
-> [!progresso] Dataview
-> ```dataview
-> TABLE status AS "Status", created AS "Criado"
-> FROM "01 - Roadmaps/Graduação em Química/1º Semestre/Matemática I"
-> WHERE tipo = "estudo"
-> SORT created ASC
-> ```
 
 ---
 
