@@ -1,4 +1,4 @@
----
+﻿---
 title: Introdução à Química Experimental I
 description: MOC da disciplina Introdução à Química Experimental I (2QUI204) — 1º
   Semestre. Cobre segurança de laboratório, vidrarias, técnicas de pesagem e medida
@@ -9,7 +9,7 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](/static/banners/quimica-exp.png)
+![](/logos-archive/static/banners/quimica-exp.png)
 
 # Introdução à Química Experimental I
 

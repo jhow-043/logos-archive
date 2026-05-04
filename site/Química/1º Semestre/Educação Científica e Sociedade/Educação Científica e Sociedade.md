@@ -9,7 +9,7 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](/static/banners/educacao-cien.png)
+![](/logos-archive/static/banners/educacao-cien.png)
 
 # Educação Científica e Sociedade
 

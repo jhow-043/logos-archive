@@ -1,4 +1,4 @@
----
+﻿---
 title: ⚛️ Física I — Mecânica
 description: 'Mapa de conteúdo da disciplina Física I. Livro base: Young & Freedman
   — Física I: Mecânica, 12ª ed. (Sears & Zemansky).'
@@ -8,7 +8,7 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](/static/banners/fisica.png)
+![](/logos-archive/static/banners/fisica.png)
 
 # ⚛️ Física I — Mecânica
 

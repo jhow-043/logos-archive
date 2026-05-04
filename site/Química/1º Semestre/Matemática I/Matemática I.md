@@ -1,4 +1,4 @@
----
+﻿---
 title: Matemática I
 description: MOC da disciplina Matemática I — 1º Semestre. Cobre fundamentos de conjuntos,
   funções, trigonometria e introdução a limites — base matemática para Cálculo e Fís…
@@ -8,7 +8,7 @@ date: 2026-04-24
 tipo: moc
 ---
 
-![](/static/banners/matematica.png)
+![](/logos-archive/static/banners/matematica.png)
 
 # Matemática I
 
