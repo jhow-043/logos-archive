@@ -9,7 +9,7 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](https://jhow-043.github.io/logos-archive/static/banners/educacao-cien.png)
+![](/banners/educacao-cien.png)
 
 # Educação Científica e Sociedade
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Logos Archive
 description: Caderno digital aberto — notas de estudo da graduação em Química, Física e Matemática.
 tipo: indice
@@ -6,7 +6,7 @@ cssclasses:
   - homepage
 ---
 
-![](https://jhow-043.github.io/logos-archive/static/banners/logos-archive.png)
+![](/banners/logos-archive.png)
 
 <div class="hero">
   <h1 class="hero-title">Logos Archive</h1>

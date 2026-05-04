@@ -8,7 +8,7 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](https://jhow-043.github.io/logos-archive/static/banners/fisica.png)
+![](/banners/fisica.png)
 
 # ⚛️ Física I — Mecânica
 

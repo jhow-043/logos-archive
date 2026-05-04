@@ -9,7 +9,7 @@ date: 2026-04-30
 tipo: moc
 ---
 
-![](https://jhow-043.github.io/logos-archive/static/banners/quimica-exp.png)
+![](/banners/quimica-exp.png)
 
 # Introdução à Química Experimental I
 
