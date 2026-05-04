@@ -141,6 +141,26 @@ def _iter_tags(fm: dict):
     return [str(t) for t in tags]
 
 
+EMOJI_RE = re.compile(
+    "["
+    "\U0001F600-\U0001F64F"  # emoticons
+    "\U0001F300-\U0001F5FF"  # símbolos e pictogramas
+    "\U0001F680-\U0001F6FF"  # transporte e mapa
+    "\U0001F1E0-\U0001F1FF"  # bandeiras
+    "\U00002700-\U000027BF"  # dingbats
+    "\U000024C2-\U0001F251"  # símbolos variados
+    "\uFE0F"                 # variation selector
+    "\u200D"                 # zero-width joiner
+    "]+",
+    flags=re.UNICODE,
+)
+
+
+def strip_emojis(text: str) -> str:
+    """Remove emojis e normaliza espaços extras resultantes."""
+    return EMOJI_RE.sub("", text).strip()
+
+
 def should_sync(fm: dict) -> bool:
     """Retorna True se o arquivo deve ser sincronizado."""
     tipo = _get_tipo(fm)
@@ -159,7 +179,7 @@ def transform_frontmatter(fm: dict, body: str, stem: str) -> dict:
     out: dict = {}
 
     # title
-    out["title"] = fm.get("title") or extract_title(body) or stem
+    out["title"] = strip_emojis(fm.get("title") or extract_title(body) or stem)
 
     # description
     desc = fm.get("description") or extract_description(body)

@@ -1,5 +1,5 @@
 ---
-title: ⚛️ Física I — Mecânica
+title: Física I — Mecânica
 description: 'Mapa de conteúdo da disciplina Física I. Livro base: Young & Freedman
   — Física I: Mecânica, 12ª ed. (Sears & Zemansky).'
 tags:
