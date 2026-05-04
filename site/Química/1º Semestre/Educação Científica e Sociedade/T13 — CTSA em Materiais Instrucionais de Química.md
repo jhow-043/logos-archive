@@ -1,4 +1,4 @@
-﻿---
+---
 title: T13 — CTSA em Materiais Instrucionais de Química
 description: Análise da presença e qualidade da perspectiva CTSA em materiais instrucionais
   (livros didáticos, apostilas) de Química. Bloco II — Trabalho Final da Disciplina…

@@ -1,4 +1,4 @@
-﻿---
+---
 title: T04 — Três Momentos Pedagógicos como Inovação Didática
 description: Apresentação dos Três Momentos Pedagógicos (3MP) como proposta de inovação
   didática para o ensino de Ciências. Bloco I — Prova I.

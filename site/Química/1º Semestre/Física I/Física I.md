@@ -7,7 +7,6 @@ tags:
 date: 2026-04-30
 tipo: moc
 ---
-
 # ⚛️ Física I — Mecânica
 
 > Mapa de conteúdo da disciplina Física I. Livro base: **Young & Freedman — Física I: Mecânica, 12ª ed. (Sears & Zemansky)**.
@@ -25,10 +24,6 @@ tipo: moc
 | [[Cap 5 — Aplicações das leis de Newton]] | Atrito, mov. circular dinâmico | 🟡 |
 | [[Cap 6 — Trabalho e energia cinética]] | Trabalho, teorema trabalho-energia, potência | 🟡 |
 | [[Cap 7 — Energia potencial e conservação da energia]] | Energia potencial, conservação, forças conservativas | 🟡 |
-
----
-
-## Notas do semestre
 
 ---
 

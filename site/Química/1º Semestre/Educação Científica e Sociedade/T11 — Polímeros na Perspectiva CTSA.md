@@ -1,4 +1,4 @@
-﻿---
+---
 title: T11 — Polímeros na Perspectiva CTSA
 description: Aplicação da perspectiva CTSA ao ensino do tema polímeros — exemplo concreto
   de articulação entre conteúdo químico e contexto socioambiental. Bloco II — Trabalh…

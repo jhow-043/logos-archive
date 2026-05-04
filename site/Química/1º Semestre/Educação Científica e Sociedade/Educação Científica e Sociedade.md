@@ -1,4 +1,4 @@
-﻿---
+---
 title: Educação Científica e Sociedade
 description: MOC da disciplina Educação Científica e Sociedade — 1º Semestre. Aborda
   a perspectiva CTS/CTSA (Ciência, Tecnologia e Sociedade / e Ambiente) no ensino
@@ -8,7 +8,6 @@ tags:
 date: 2026-04-30
 tipo: moc
 ---
-
 # Educação Científica e Sociedade
 
 > MOC da disciplina Educação Científica e Sociedade — 1º Semestre. Aborda a perspectiva CTS/CTSA (Ciência, Tecnologia e Sociedade / e Ambiente) no ensino de Ciências, com ênfase na articulação com os Três Momentos Pedagógicos (3MP) e elaboração de Sequências Didáticas.
@@ -49,12 +48,6 @@ tipo: moc
 | T11 | [[T11 — Polímeros na Perspectiva CTSA]] | 🔲 |
 | T12 | [[T12 — Educação Ambiental e Ensino de Química]] | 🔲 |
 | T13 | [[T13 — CTSA em Materiais Instrucionais de Química]] | 🔲 |
-
----
-
-## PDFs dos Textos
-
-> Todos os PDFs estão em `03 - Recursos/PDFs/Educação Científica e Sociedade/`.
 
 ---
 

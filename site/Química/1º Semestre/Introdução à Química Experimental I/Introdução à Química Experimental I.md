@@ -8,7 +8,6 @@ tags:
 date: 2026-04-30
 tipo: moc
 ---
-
 # Introdução à Química Experimental I
 
 > MOC da disciplina Introdução à Química Experimental I (2QUI204) — 1º Semestre. Cobre segurança de laboratório, vidrarias, técnicas de pesagem e medida de volume, preparo de soluções, transformações físicas e químicas, técnicas de separação, destilação, propriedades coligativas e propriedades físicas. Profa. Dra. Érica Signori Romagnoli e Prof. Dr. Thiago Cervantes.
@@ -62,10 +61,6 @@ Regras críticas:
 
 ---
 
-## Notas da Disciplina
-
----
-
 ## Cronograma (Referência)
 
 | Data | Conteúdo |
@@ -83,12 +78,6 @@ Regras críticas:
 | 19/06 | Propriedades coligativas II (Prática 9) |
 | 26/06 | Propriedades físicas (Prática 10) |
 | **03/07** | **2ª Avaliação** |
-
----
-
-## Material da Disciplina
-
-- Apostila 2QUI204 — Profa. Dra. Érica Signori Romagnoli e Prof. Dr. Thiago Cervantes (UEL, 2026)
 
 ---
 

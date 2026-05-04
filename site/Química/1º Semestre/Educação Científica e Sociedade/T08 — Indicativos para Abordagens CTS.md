@@ -1,4 +1,4 @@
-﻿---
+---
 title: T08 — Indicativos para Abordagens CTS
 description: Critérios e indicativos práticos para identificar e implementar abordagens
   CTS em contextos de ensino. Bloco II — Trabalho Final da Disciplina (TFD).

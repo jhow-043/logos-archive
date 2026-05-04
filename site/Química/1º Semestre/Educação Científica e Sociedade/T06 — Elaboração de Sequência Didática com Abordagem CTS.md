@@ -1,4 +1,4 @@
-﻿---
+---
 title: T06 — Elaboração de Sequência Didática com Abordagem CTS
 description: Orientações e metodologia para a elaboração de Sequências Didáticas (SD)
   fundamentadas na perspectiva CTS. Bloco I — Prova I.

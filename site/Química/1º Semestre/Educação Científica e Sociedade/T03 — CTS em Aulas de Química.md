@@ -1,4 +1,4 @@
-﻿---
+---
 title: T03 — CTS em Aulas de Química
 description: Amaral & Firme — Destaques e análise da abordagem CTS aplicada em aulas
   de Química. Bloco I — Prova I.

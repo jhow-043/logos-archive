@@ -1,4 +1,4 @@
-﻿---
+---
 title: T01 — Pressupostos Teóricos da Abordagem CTS
 description: Wildson & Mortimer — Análise dos fundamentos teóricos que sustentam a
   abordagem CTS no ensino de Ciências. Bloco I — Prova I.

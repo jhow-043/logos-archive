@@ -1,4 +1,4 @@
-﻿---
+---
 title: T10 — Educação Ambiental como Tema CTSA
 description: Wildson — Uso da Educação Ambiental como tema estruturante na perspectiva
   CTSA (Ciência, Tecnologia, Sociedade e Ambiente). Bloco II — Trabalho Final da Discipl…
