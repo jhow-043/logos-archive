@@ -8,7 +8,7 @@ date: 2026-04-24
 tipo: moc
 ---
 
-![](/logos-archive/static/banners/matematica.png)
+![](https://jhow-043.github.io/logos-archive/static/banners/matematica.png)
 
 # Matemática I
 
