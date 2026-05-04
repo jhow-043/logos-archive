@@ -1,4 +1,4 @@
----
+﻿---
 title: T08 — Indicativos para Abordagens CTS
 description: Critérios e indicativos práticos para identificar e implementar abordagens
   CTS em contextos de ensino. Bloco II — Trabalho Final da Disciplina (TFD).
@@ -65,5 +65,5 @@ Apesar de sua utilidade, o texto não aborda suficientemente como professores id
 
 ## Fonte
 
-- Texto 08 — 2QUI202.
+- Texto 08.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 08_Indicativos para abordagens CTS.pdf`

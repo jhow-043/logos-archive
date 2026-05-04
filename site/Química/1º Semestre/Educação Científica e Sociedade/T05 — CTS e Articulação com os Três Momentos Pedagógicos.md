@@ -1,4 +1,4 @@
----
+﻿---
 title: T05 — CTS e Articulação com os Três Momentos Pedagógicos
 description: Análise da articulação entre a abordagem CTS e os Três Momentos Pedagógicos
   (3MP) no planejamento de aulas de Ciências. Bloco I — Prova I.
@@ -64,5 +64,5 @@ O modelo é convincente em nível conceitual, mas requer que o professor tenha s
 
 ## Fonte
 
-- Texto 05 — 2QUI202.
+- Texto 05.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 05_CTS e Articulação com 3MP.pdf`

@@ -1,4 +1,4 @@
----
+﻿---
 title: T03 — CTS em Aulas de Química
 description: Amaral & Firme — Destaques e análise da abordagem CTS aplicada em aulas
   de Química. Bloco I — Prova I.
@@ -65,5 +65,5 @@ Embora o texto identifique os obstáculos com pertinência, oferece poucas estra
 
 ## Fonte
 
-- AMARAL, E. M. R.; FIRME, R. N. CTS em aulas de Química — destaques. **Texto 03** — 2QUI202.
+- AMARAL, E. M. R.; FIRME, R. N. CTS em aulas de Química — destaques. **Texto 03**.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 03_CTS em aulas de Química AMARAL & FIRME_destques.pdf`

@@ -1,4 +1,4 @@
----
+﻿---
 title: T3A — CTS e Obstáculos à Implementação
 description: Texto complementar ao T03 — analisa os obstáculos e resistências encontradas
   na implementação da abordagem CTS na prática escolar. Bloco I — Prova I.
@@ -64,5 +64,5 @@ Embora o diagnóstico seja pertinente, o texto oferece poucas indicações de co
 
 ## Fonte
 
-- Texto 3A — 2QUI202.
+- Texto 3A.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 3A_CTS e obstaculos a implementação.pdf`

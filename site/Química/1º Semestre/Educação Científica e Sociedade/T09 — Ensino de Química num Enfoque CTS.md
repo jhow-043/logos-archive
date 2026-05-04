@@ -1,4 +1,4 @@
----
+﻿---
 title: T09 — Ensino de Química num Enfoque CTS
 description: Análise da aplicação do enfoque CTS especificamente no ensino de Química,
   com exemplos e implicações curriculares. Bloco II — Trabalho Final da Disciplina
@@ -65,5 +65,5 @@ Não está claro como generalizar a abordagem para outros conteúdos que não po
 
 ## Fonte
 
-- Texto 09 — 2QUI202.
+- Texto 09.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 09_Ensino de Química num enfoque CTS.pdf`

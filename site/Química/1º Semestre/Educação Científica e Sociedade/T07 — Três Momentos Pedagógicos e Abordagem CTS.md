@@ -1,4 +1,4 @@
----
+﻿---
 title: T07 — Três Momentos Pedagógicos e Abordagem CTS
 description: Aprofundamento da relação entre os Três Momentos Pedagógicos e a abordagem
   CTS no ensino de Ciências. Bloco II — Trabalho Final da Disciplina (TFD).
@@ -64,5 +64,5 @@ A análise comparativa é valiosa teoricamente, mas realça a complexidade para 
 
 ## Fonte
 
-- Texto 07 — 2QUI202.
+- Texto 07.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 07_Tres Momentos pedagogicos e abordagem CTS.pdf`

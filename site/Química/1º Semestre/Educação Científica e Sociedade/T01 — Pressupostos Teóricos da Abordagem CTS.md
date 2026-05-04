@@ -1,4 +1,4 @@
----
+﻿---
 title: T01 — Pressupostos Teóricos da Abordagem CTS
 description: Wildson & Mortimer — Análise dos fundamentos teóricos que sustentam a
   abordagem CTS no ensino de Ciências. Bloco I — Prova I.
@@ -63,5 +63,5 @@ Embora o texto forneça base teórica robusta para a abordagem CTS, deixa em abe
 
 ## Fonte
 
-- WILDSON, L. P. S.; MORTIMER, E. F. Pressupostos epistemológicos para o ensino de Ciências com enfoque CTS. **Texto 01** — 2QUI202.
+- WILDSON, L. P. S.; MORTIMER, E. F. Pressupostos epistemológicos para o ensino de Ciências com enfoque CTS. **Texto 01**.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 01_Wildson & Mortimer_Pressupostos teoricos da abordagem CTS.pdf`

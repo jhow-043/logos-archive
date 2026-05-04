@@ -1,4 +1,4 @@
----
+﻿---
 title: T13 — CTSA em Materiais Instrucionais de Química
 description: Análise da presença e qualidade da perspectiva CTSA em materiais instrucionais
   (livros didáticos, apostilas) de Química. Bloco II — Trabalho Final da Disciplina…
@@ -63,5 +63,5 @@ A análise revela lacunas importantes, mas não explora suficientemente as razõ
 
 ## Fonte
 
-- Texto 13 — 2QUI202.
+- Texto 13.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 13_CTSA em materiais instrucionais de Química.pdf`

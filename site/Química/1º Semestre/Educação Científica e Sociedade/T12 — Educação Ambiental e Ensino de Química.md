@@ -1,4 +1,4 @@
----
+﻿---
 title: T12 — Educação Ambiental e Ensino de Química
 description: Análise da integração entre Educação Ambiental e o ensino de Química
   na perspectiva CTS/CTSA. Bloco II — Trabalho Final da Disciplina (TFD).
@@ -64,5 +64,5 @@ O texto não aborda a sustentabilidade pedagógica: após o uso do simulador, co
 
 ## Fonte
 
-- Texto 12 — 2QUI202.
+- Texto 12.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 12_Educação Ambiental e ensino de Química.pdf`

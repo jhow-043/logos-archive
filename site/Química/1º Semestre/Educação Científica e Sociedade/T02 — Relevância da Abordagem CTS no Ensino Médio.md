@@ -1,4 +1,4 @@
----
+﻿---
 title: T02 — Relevância da Abordagem CTS no Ensino Médio
 description: Análise da pertinência e relevância da perspectiva CTS para o ensino
   de Ciências no Ensino Médio. Bloco I — Prova I.
@@ -64,5 +64,5 @@ Apesar da robustez argumentativa, o texto não aborda os obstáculos concretos e
 
 ## Fonte
 
-- Texto 02 — 2QUI202.
+- Texto 02.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 02_Relevancia abordagem CTS _Ensino Médio.pdf`

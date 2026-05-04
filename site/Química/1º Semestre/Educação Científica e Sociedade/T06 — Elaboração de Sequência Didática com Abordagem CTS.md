@@ -1,4 +1,4 @@
----
+﻿---
 title: T06 — Elaboração de Sequência Didática com Abordagem CTS
 description: Orientações e metodologia para a elaboração de Sequências Didáticas (SD)
   fundamentadas na perspectiva CTS. Bloco I — Prova I.
@@ -64,5 +64,5 @@ Embora o modelo seja útil, carece de exemplos completos que mostrem como um tem
 
 ## Fonte
 
-- Texto 06 — 2QUI202.
+- Texto 06.
   `03 - Recursos/PDFs/Educação Científica e Sociedade/Texto 06_Elaboração de SD com abordagem CTS.pdf`
