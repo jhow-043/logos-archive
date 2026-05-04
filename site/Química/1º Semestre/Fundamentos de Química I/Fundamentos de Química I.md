@@ -1,13 +1,12 @@
 ---
 title: Fundamentos de Química I
 description: 'MOC da disciplina Fundamentos de Química I — 1º Semestre. Cobre os conceitos
-  fundamentais da ciência química: matéria, modelos atômicos, estequiometria e reaçõe'
+  fundamentais da ciência química: matéria, modelos atômicos, estequiometria e reaçõe…'
 tags:
 - quimica
 date: 2026-04-24
 tipo: moc
 ---
-
 # Fundamentos de Química I
 
 > MOC da disciplina Fundamentos de Química I — 1º Semestre. Cobre os conceitos fundamentais da ciência química: matéria, modelos atômicos, estequiometria e reações em solução.
@@ -53,6 +52,10 @@ tipo: moc
 
 ## Material da Disciplina
 
+- `02 - Áreas/Química/U1 - Conceitos fundamentais de química.pdf`
+- `02 - Áreas/Química/UNIDADE 2 - ÁTOMOS, ÍONS E MOLÉCULAS 2026.pdf`
+- `02 - Áreas/Química/UNIDADE 3 - ESTEQUIOMETRIA CÁLCULOS COM FÓRMULAS.pdf`
+- `02 - Áreas/Química/U4 - Estequiometria e Reações em solução.pdf`
 
 ---
 

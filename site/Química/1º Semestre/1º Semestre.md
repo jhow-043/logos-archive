@@ -1,12 +1,11 @@
 ---
-title: 1º Semestre
+title: 1º Semestre — Química
 description: Visão geral do 1º semestre do curso de Graduação em Química.
 tags:
 - quimica
 date: 2026-04-16
 tipo: moc
 ---
-
 # 1º Semestre — Química
 
 > Visão geral do 1º semestre do curso de Graduação em Química.
@@ -18,11 +17,11 @@ tipo: moc
 | Disciplina | Status |
 | ---------- | ------ |
 | [[Fundamentos de Química I]] | 🟡 |
-| Física I | 🔲 |
+| [[Física I]] | 🟡 |
 | [[Matemática I]] | 🟡 |
 | [[Introdução à Química Experimental I]] | 🟡 |
 | Ciclo de Leituras | 🔲 |
-| Educação Científica e Sociedade | 🔲 |
+| [[Educação Científica e Sociedade]] | 🟡 |
 
 ---
 

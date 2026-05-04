@@ -2,7 +2,7 @@
 title: Elementos, Compostos e Substâncias Puras
 description: Toda a matéria pode ser classificada como substância pura (composição
   invariável) ou mistura (composição variável). As substâncias puras se subdividem
-  em elemen
+  em elemen…
 tags:
 - quimica
 date: 2026-04-24
@@ -10,7 +10,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-
 # Elementos, Compostos e Substâncias Puras
 
 > Toda a matéria pode ser classificada como **substância pura** (composição invariável) ou **mistura** (composição variável). As substâncias puras se subdividem em **elementos** (um único tipo de átomo) e **compostos** (dois ou mais elementos em proporção fixa). Essa hierarquia é o alicerce de toda a Química.

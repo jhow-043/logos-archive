@@ -1,8 +1,8 @@
 ---
-title: O que é Química
+title: O que é Química?
 description: Química é a ciência que estuda a matéria — sua composição, estrutura,
   propriedades e as transformações que ela sofre. Compreender a química é compreender
-  a ling
+  a ling…
 tags:
 - quimica
 date: 2026-04-24
@@ -10,7 +10,6 @@ tipo: estudo
 disciplina: quimica-geral
 semestre: 1
 ---
-
 # O que é Química?
 
 > Química é a ciência que estuda a **matéria** — sua composição, estrutura, propriedades e as transformações que ela sofre. Compreender a química é compreender a linguagem em que o universo escreve suas leis.

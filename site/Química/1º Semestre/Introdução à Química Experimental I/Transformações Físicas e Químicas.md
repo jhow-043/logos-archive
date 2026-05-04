@@ -1,8 +1,8 @@
 ---
 title: Transformações Físicas e Químicas
-description: 'A distinção entre fenômeno físico e químico é fundamental em química.
+description: A distinção entre fenômeno físico e químico é fundamental em química.
   Fisicamente, a identidade da substância é preservada; quimicamente, novas substâncias
-  são '
+  são…
 tags:
 - quimica
 date: 2026-04-30
@@ -10,7 +10,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-
 # Transformações Físicas e Químicas
 
 > A distinção entre fenômeno físico e químico é fundamental em química. Fisicamente, a identidade da substância é preservada; quimicamente, novas substâncias são formadas. Esta prática treina a observação sistemática de evidências que indicam a ocorrência de reação química, a partir de seis experimentos com reagentes distintos.

@@ -1,7 +1,7 @@
 ---
 title: Técnicas de Pesagem e Medidas de Volume
 description: Toda grandeza medida em laboratório carrega incerteza. Esta prática quantifica
-  o erro experimental das vidrarias mais comuns (proveta, pipeta volumétrica e bure
+  o erro experimental das vidrarias mais comuns (proveta, pipeta volumétrica e bure…
 tags:
 - quimica
 date: 2026-04-30
@@ -9,7 +9,6 @@ tipo: estudo
 disciplina: quimica-experimental
 semestre: 1
 ---
-
 # Técnicas de Pesagem e Medidas de Volume
 
 > Toda grandeza medida em laboratório carrega incerteza. Esta prática quantifica o erro experimental das vidrarias mais comuns (proveta, pipeta volumétrica e bureta) por gravimetria e consolida os conceitos de exatidão, precisão, algarismos significativos e notação científica aplicados à prática experimental.
