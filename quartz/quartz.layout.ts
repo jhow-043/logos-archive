@@ -8,8 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/jhow-043/logos-archive",
     },
   }),
 }
@@ -46,7 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   afterBody: [
-    Component.DesktopOnly(Component.Graph()),
+    Component.Graph(),
     Component.Backlinks(),
   ],
 }
@@ -70,5 +69,7 @@ export const defaultListPageLayout: PageLayout = {
       filterFn: (node) => node.name !== "_stubs",
     }),
   ],
-  right: [],
+  right: [
+    Component.DesktopOnly(Component.Graph()),
+  ],
 }
