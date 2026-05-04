@@ -1,6 +1,61 @@
 @use "./base.scss";
 @use "./variables.scss" as *;
 
+/* ── Tipografia — Catppuccin (espelha O Grafo de Alexandria) ──── */
+
+/* H1 — gradiente roxo */
+h1 {
+  background: linear-gradient(135deg, #cba6f7, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* dark mode: mesma coisa */
+:root[saved-theme="dark"] h1 {
+  background: linear-gradient(135deg, #cba6f7, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* H2 — Mauve */
+h2 {
+  color: #8839ef !important;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(136, 57, 239, 0.15);
+  padding-bottom: 0.25em;
+}
+
+:root[saved-theme="dark"] h2 {
+  color: #cba6f7 !important;
+  border-bottom-color: rgba(203, 166, 247, 0.15);
+}
+
+/* H3 — Lavender */
+h3 {
+  color: #7287fd !important;
+  font-weight: 600;
+}
+
+:root[saved-theme="dark"] h3 {
+  color: #b4befe !important;
+}
+
+/* H4-H6 — Muted */
+h4, h5, h6 {
+  color: rgba(136, 57, 239, 0.7) !important;
+  font-weight: 600;
+}
+
+:root[saved-theme="dark"] h4,
+:root[saved-theme="dark"] h5,
+:root[saved-theme="dark"] h6 {
+  color: rgba(203, 166, 247, 0.7) !important;
+}
+
 /* ── Homepage ─────────────────────────────────────────────────── */
 
 .homepage .page-header {
@@ -16,11 +71,11 @@
 
 .hero-title {
   font-size: clamp(2.4rem, 6vw, 3.8rem);
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.03em;
-  color: var(--dark);
   margin: 0 0 0.75rem;
   line-height: 1.1;
+  /* herda o gradiente do h1 global */
 }
 
 .hero-sub {
