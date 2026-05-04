@@ -8,6 +8,9 @@ tags:
 date: 2026-04-30
 tipo: moc
 ---
+
+![](/static/banners/educacao-cien.png)
+
 # Educação Científica e Sociedade
 
 > MOC da disciplina Educação Científica e Sociedade — 1º Semestre. Aborda a perspectiva CTS/CTSA (Ciência, Tecnologia e Sociedade / e Ambiente) no ensino de Ciências, com ênfase na articulação com os Três Momentos Pedagógicos (3MP) e elaboração de Sequências Didáticas.
