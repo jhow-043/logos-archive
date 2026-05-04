@@ -21,6 +21,10 @@ import re
 import sys
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 try:
     import yaml
 except ImportError:
@@ -29,8 +33,24 @@ except ImportError:
 
 # ── Configuração ──────────────────────────────────────────────────────────────
 
-SOURCE_ROOT = Path(r"d:\Projetos\Vault\O Grafo de Alexandria\01 - Roadmaps\Graduação em Química")
-DEST_ROOT   = Path(r"d:\Projetos\Vault\logos-archive\site\Química")
+def _load_config() -> tuple[Path, Path]:
+    """Carrega SOURCE_ROOT e DEST_ROOT do sync.config.yaml na mesma pasta."""
+    config_path = Path(__file__).parent / "sync.config.yaml"
+    if not config_path.exists():
+        example = Path(__file__).parent / "sync.config.example.yaml"
+        print(
+            f"Erro: {config_path} não encontrado.\n"
+            f"Copie {example} para {config_path} e ajuste os caminhos.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    with config_path.open(encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    source = Path(cfg["source"])
+    dest   = Path(cfg["dest"])
+    return source, dest
+
+SOURCE_ROOT, DEST_ROOT = _load_config()
 
 # Arquivos que não devem ser publicados
 EXCLUDE_ROOT_FILES = {"Graduação em Química.md"}
@@ -57,7 +77,8 @@ def parse_file(path: Path) -> tuple[dict, str]:
     if m:
         try:
             fm = yaml.safe_load(m.group(1)) or {}
-        except yaml.YAMLError:
+        except yaml.YAMLError as exc:
+            print(f"  ⚠ YAML inválido em {path.name}: {exc}", file=sys.stderr)
             fm = {}
         body = text[m.end():]
     else:
@@ -260,7 +281,7 @@ def strip_moc_sections(body: str) -> str:
         m = H2_RE.match(line)
         if m:
             heading = m.group(1).strip()
-            if heading in MOC_SECTIONS_TO_STRIP:
+            if heading.lower() in {s.lower() for s in MOC_SECTIONS_TO_STRIP}:
                 buffer = []            # descarta separador pendente
                 skip_section = True
             else:
@@ -356,7 +377,7 @@ def main() -> None:
 
     stats = {"synced": 0, "skipped": 0}
     label = "[DRY-RUN] " if args.dry_run else ""
-    print(f"{label}Sincronizando:\n  {SOURCE_ROOT}\n  → {DEST_ROOT}\n")
+    print(f"{label}Sincronizando:\n  {SOURCE_ROOT}\n  -> {DEST_ROOT}\n")
 
     for src in sorted(SOURCE_ROOT.rglob("*.md")):
         rel = src.relative_to(SOURCE_ROOT)

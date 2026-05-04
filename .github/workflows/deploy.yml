@@ -34,6 +34,21 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-quartz-
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Create CI config (site path only)
+        run: |
+          echo "source: '/dev/null'" > tools/sync.config.yaml
+          echo "dest: '$(pwd)/site'"  >> tools/sync.config.yaml
+
+      - name: Audit site (encoding + frontmatter + wikilinks)
+        run: python tools/_audit.py --ci
+
       - name: Install dependencies
         run: cd quartz && npm ci
 

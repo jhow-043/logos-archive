@@ -1,0 +1,15 @@
+# sync.config.yaml — Configuração de caminhos por máquina
+#
+# Copie este arquivo para tools/sync.config.yaml e ajuste os caminhos
+# para a sua máquina. O arquivo sync.config.yaml está no .gitignore.
+#
+# Exemplo Windows:
+#   source: 'C:\Users\você\Vault\O Grafo de Alexandria\01 - Roadmaps\Graduação em Química'
+#   dest:   'C:\Users\você\logos-archive\site\Química'
+#
+# Exemplo Linux:
+#   source: '/home/você/Vault/O Grafo de Alexandria/01 - Roadmaps/Graduação em Química'
+#   dest:   '/home/você/logos-archive/site/Química'
+
+source: '/caminho/para/O Grafo de Alexandria/01 - Roadmaps/Graduação em Química'
+dest:   '/caminho/para/logos-archive/site/Química'

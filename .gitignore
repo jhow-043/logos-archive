@@ -19,6 +19,12 @@ __pycache__/
 *.egg-info/
 .venv/
 
+# Configuração local de caminhos (cada máquina tem o seu)
+tools/sync.config.yaml
+
+# Backups gerados pelo _fix_encoding.py
+*.md.bak
+
 # Sistema
 .DS_Store
 Thumbs.db

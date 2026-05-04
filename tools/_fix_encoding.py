@@ -1,5 +1,22 @@
 """Repara arquivos corrompidos por double-encoding (PS 5.1 leu UTF-8 como cp1252)."""
 from pathlib import Path
+import sys
+
+try:
+    import yaml
+except ImportError:
+    print("Instale PyYAML: pip install pyyaml", file=sys.stderr)
+    sys.exit(1)
+
+
+def _load_source() -> Path:
+    config_path = Path(__file__).parent / "sync.config.yaml"
+    if not config_path.exists():
+        print(f"Erro: {config_path} não encontrado.", file=sys.stderr)
+        sys.exit(1)
+    with config_path.open(encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    return Path(cfg["source"])
 
 
 def recover_bytes(text: str) -> bytes:
@@ -21,7 +38,7 @@ def recover_bytes(text: str) -> bytes:
     return bytes(result)
 
 
-ROOT = Path(r"d:\Projetos\Vault\O Grafo de Alexandria\01 - Roadmaps\Graduação em Química")
+ROOT = _load_source()
 fixed = 0
 errors = []
 
@@ -34,7 +51,13 @@ for md in ROOT.rglob("*.md"):
         text = content_bytes.decode('utf-8')
         original_bytes = recover_bytes(text)
         restored = original_bytes.decode('utf-8')
-        md.write_bytes(restored.encode('utf-8'))
+        bak = md.with_suffix('.md.bak')
+        bak.write_bytes(raw)  # backup antes de modificar
+        try:
+            md.write_bytes(restored.encode('utf-8'))
+            bak.unlink()  # remove backup se tudo OK
+        except Exception:
+            raise  # mantém o .bak para recuperação manual
         print(f"  ✓ {md.name}")
         fixed += 1
     except Exception as e:
