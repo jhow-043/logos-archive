@@ -472,6 +472,14 @@ def main() -> None:
         if rel.name in EXCLUDE_FILES:
             continue
         dest = DEST_ROOT / rel
+        # MOC: arquivo com mesmo nome da pasta-pai → prefixar com "00-" para
+        # garantir ordenação no topo sem precisar de sortFn no Explorer.
+        if dest.stem == dest.parent.name:
+            old_dest = dest
+            dest = dest.parent / f"00-{dest.name}"
+            # Remove versão sem prefixo se ainda existir (migração única)
+            if not args.dry_run and old_dest.exists():
+                old_dest.unlink()
         sync_file(src, dest, dry_run=args.dry_run, stats=stats, verbose=args.verbose)
 
     verb = "Simulação" if args.dry_run else "Sync"
