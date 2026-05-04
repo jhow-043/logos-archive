@@ -153,7 +153,7 @@ Exemplo — livro sobre a mesa:
 | $\sum F_x = ma_x$ | Componente $x$ da 2ª Lei | N |
 | $\sum F_y = ma_y$ | Componente $y$ da 2ª Lei | N |
 | $P = mg$ | Magnitude do peso | N |
-| $1\ \text{N} = 1\ \text{kg\cdot m/s}^2$ | Definição do Newton | — |
+| $1\ \text{N} = 1\ \text{kg} \cdot \text{m/s}^2$ | Definição do Newton | — |
 | $\vec{F}_{AB} = -\vec{F}_{BA}$ | 3ª Lei (ação-reação) | N |
 
 ---

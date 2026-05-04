@@ -56,7 +56,7 @@ O SI define sete grandezas-base:
 | Quantidade de matéria | mol | mol |
 | Intensidade luminosa | candela | cd |
 
-Grandezas derivadas são combinações dessas: velocidade ($\text{m/s}$), força ($\text{N} = \text{kg\cdot m/s}^2$), energia ($\text{J} = \text{kg\cdot m}^2/\text{s}^2$).
+Grandezas derivadas são combinações dessas: velocidade ($\text{m/s}$), força ($\text{N} = \text{kg} \cdot \text{m/s}^2$), energia ($\text{J} = \text{kg\cdot m}^2/\text{s}^2$).
 
 ### 1.4 Coerência e conversão de unidades
 
