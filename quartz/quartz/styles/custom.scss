@@ -186,8 +186,7 @@ h4, h5, h6 {
 }
 
 /* ── Fase 3: Cards visuais nas folder pages ───────────────────── */
-/* Target the page-listing on folder/tag index pages */
-.popover-hint ul.section-ul,
+/* Apenas nas páginas de pasta/tag, não em popovers */
 .page-listing ul.section-ul {
   display: grid;
   grid-template-columns: 1fr;
@@ -195,7 +194,6 @@ h4, h5, h6 {
   margin-top: 1.25rem;
 }
 
-.popover-hint li.section-li,
 .page-listing li.section-li {
   margin-bottom: 0;
   border: 1px solid var(--lightgray);
@@ -209,7 +207,7 @@ h4, h5, h6 {
     transform: translateY(-1px);
   }
 
-  /* MOC card: accent left border */
+  /* MOC card: accent left border (primeiro item não-único) */
   &:first-of-type:not(:only-child) {
     border-left: 3px solid var(--secondary);
     background: var(--highlight);
@@ -268,19 +266,27 @@ h4, h5, h6 {
   }
 }
 
-/* ── Fase 4: Barra de progresso de leitura ───────────────────── */
-/* Thin accent bar at the very top of the viewport */
-#reading-progress {
+/* ── Fase 4: Barra de progresso de leitura (CSS puro) ────────── */
+/* Usa CSS scroll-driven animation — sem JS, sem elemento HTML extra */
+@keyframes reading-progress {
+  to { transform: scaleX(1); }
+}
+
+body::before {
+  content: '';
   position: fixed;
   top: 0;
   left: 0;
-  width: 0%;
+  width: 100%;
   height: 3px;
   background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+  transform: scaleX(0);
+  transform-origin: left;
   z-index: 9999;
-  transition: width 0.1s linear;
   pointer-events: none;
-  border-radius: 0 2px 2px 0;
+  animation: reading-progress linear;
+  animation-timeline: scroll();
+  animation-range: 0 100%;
 }
 
 /* ── Fase 4: Botão back-to-top ───────────────────────────────── */
@@ -318,4 +324,3 @@ h4, h5, h6 {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
   }
 }
-
