@@ -1,7 +1,8 @@
-﻿---
+---
 title: Logos Archive
 description: Caderno digital aberto — notas de estudo da graduação em Química, Física e Matemática.
 tipo: indice
+date: 2026-04-24
 cssclasses:
   - homepage
 ---
